@@ -1,6 +1,6 @@
 ---
 outline: false
-title: BULLSHIT
+head: [['script', { src: '/js/d2xVersion.js' }]]
 ---
 
 # cIOS
