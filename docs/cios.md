@@ -1,7 +1,7 @@
 ---
 outline: false
-add_head:
-  - <script src="/js/d2xVersion.js"></script>
+head:
+  - script: "/js/d2xVersion.js"
 ---
 
 # cIOS
