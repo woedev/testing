@@ -1,16 +1,7 @@
 ---
 outline: false
 add_head:
-  - <script>$(document).ready(function () {
-           GetLatestCiosRelease();
-       });
-
-       function GetLatestCiosRelease() {
-           $.getJSON("https://api.github.com/repos/wiidev/d2x-cios/releases/latest").done(function (json) {
-               document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion-vWii', json.name + '-vWii');
-               document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion', json.name);
-           });
-       }</script>
+  - <script>$(document).ready(function(){GetLatestCiosRelease()});</script>
 ---
 
 # cIOS
