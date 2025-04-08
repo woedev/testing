@@ -1,4 +1,4 @@
-const lastKnownVersion = "v11-beta3";
+const lastKnownVersion = "d2x-v11-beta3";
 
 $(document).ready(function () {
     $.getJSON("https://apix.github.com/repos/wiidev/d2x-cios/releases/latest").done(function (json) {
