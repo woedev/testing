@@ -38,6 +38,9 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ::: details Click here if you need to perform an offline install
 
+::: info
+If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.zip), and it will download the WAD files for you.
+:::
 1. Power off your console.
 1. Insert your SD card or USB drive into your computer.
 1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
@@ -54,13 +57,9 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
     + This must be the same device containing the d2x cIOS Installer.
 
 ::: info
-
 The WAD files should be on your SD card like this:
 
 ![](/images/cios/d2x_offline_ios.png)
-
-:::
-
 :::
 
 1. Copy the `apps` folder from the d2x-currentversion `.zip` to the root of your SD card or USB drive.
