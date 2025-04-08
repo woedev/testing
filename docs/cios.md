@@ -1,6 +1,6 @@
 ---
 outline: false
-head: [['script', { src: '/js/d2xVersion.js' }]]
+head: [['script', { src: '/testing/js/d2xVersion.js' }]]
 ---
 
 # cIOS
