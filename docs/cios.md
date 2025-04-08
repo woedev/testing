@@ -1,7 +1,7 @@
 ---
 outline: false
 add_head:
-  - <script>$(document).ready(function(){GetLatestCiosRelease()});</script>
+  - <script src="/js/d2xVersion.js"></script>
 ---
 
 # cIOS
