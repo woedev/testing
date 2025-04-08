@@ -15,21 +15,7 @@ export default defineConfig({
   description: "The complete guide to modding your Wii, vWii, and Wii mini",
   head: [
     ['link', { rel: 'icon', href: '/images/site-config/favicon.ico' }],
-    ['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js' }],
-    [
-      "script",
-      {},
-      `$(document).ready(function () {
-           GetLatestCiosRelease();
-       });
-
-       function GetLatestCiosRelease() {
-           $.getJSON("https://api.github.com/repos/wiidev/d2x-cios/releases/latest").done(function (json) {
-               document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion-vWii', json.name + '-vWii');
-               document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion', json.name);
-           });
-       }`,
-    ]
+    ['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js' }]
   ],
   locales: {
     root: i18n.en_US,
