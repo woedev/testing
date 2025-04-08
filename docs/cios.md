@@ -1,11 +1,3 @@
-export default {
-  head: [
-    [
-      'link',
-      { rel: 'preconnect', href: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js'}
-    ]
-}
-
 ---
 outline: false
 ---
@@ -363,17 +355,4 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 :::::
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
-
-$(document).ready(function () {
-     GetLatestCiosRelease();
-});  
-
-function GetLatestCiosRelease() { // JS to ensure latest cIOS version name is shown
-   $.getJSON("//api.github.com/repos/wiidev/d2x-cios/releases/latest").done(function (json) {
-        var releaseName = json.name;
-        document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-v11-beta3-vWii', releaseName + '-vWii');
-        document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-v11-beta3', releaseName);
-   });    
-}
-</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></sctript>
