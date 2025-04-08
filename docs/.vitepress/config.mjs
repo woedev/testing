@@ -15,7 +15,6 @@ export default defineConfig({
   description: "The complete guide to modding your Wii, vWii, and Wii mini",
   head: [
     ['link', { rel: 'icon', href: '/images/site-config/favicon.ico' }],
-    ['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js' }],
     [
       "script",
       {},
