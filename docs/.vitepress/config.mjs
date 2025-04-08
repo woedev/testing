@@ -37,7 +37,7 @@ export default defineConfig({
     hu_HU: i18n.hu_HU
   },
   sitemap: {
-    hostname: 'https://woedev.github.io'
+    hostname: 'https://woedev.github.io/testing'
   },
   themeConfig: {
     outline: {
