@@ -40,7 +40,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ::: info
 If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.zip), and it will download the WAD files for you.
-:::
+
 1. Power off your console.
 1. Insert your SD card or USB drive into your computer.
 1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
