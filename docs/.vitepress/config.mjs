@@ -25,9 +25,8 @@ export default defineConfig({
 
        function GetLatestCiosRelease() {
            $.getJSON("https://api.github.com/repos/wiidev/d2x-cios/releases/latest").done(function (json) {
-           var releaseName = json.name;
-               document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion-vWii', releaseName + '-vWii');
-               document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion', releaseName);
+               document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion-vWii', json.name + '-vWii');
+               document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion', json.name);
            });
        }`,
     ]
