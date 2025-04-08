@@ -362,7 +362,7 @@ $(document).ready(function () {
 });  
 
 function GetLatestCiosRelease() { // JS to ensure latest cIOS version name is shown
-   $.getJSON("https://api.github.com/repos/wiidev/d2x-cios/releases/latest").done(function (json) {
+   $.getJSON("//api.github.com/repos/wiidev/d2x-cios/releases/latest").done(function (json) {
         var releaseName = json.name;
         document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-v11-beta3-vWii', releaseName + '-vWii');
         document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-v11-beta3', releaseName);
