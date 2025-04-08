@@ -355,7 +355,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 :::::
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js">
 
 $(document).ready(function () {
      GetLatestCiosRelease();
