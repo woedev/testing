@@ -1,9 +1,7 @@
 ---
 outline: false
 head:
-  - script:
-      type: module
-      src: "/js/d2xVersion.js"
+  - - script: "/js/d2xVersion.js"
 ---
 
 # cIOS
