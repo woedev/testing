@@ -36,7 +36,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ### Section I - Installing
 
-::: details Click here if you need to perform an offline install
+::: details Extras information for offline installs (optional)
 
 1. Power off your console.
 1. Insert your SD card or USB drive into your computer.
