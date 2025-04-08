@@ -24,7 +24,7 @@ Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing s
 
 * A Wii with the Homebrew Channel installed
 * An SD card or USB drive
-* The [d2x cIOS Installer](https://github.com/wiidev/d2x-cios/releases/download/d2x-replaceme/d2x-replaceme.zip) (the `.zip` file)
+* The [d2x cIOS Installer](https://github.com/wiidev/d2x-cios/releases/download/d2x-currentversion/d2x-currentversion.zip) (the `.zip` file)
 
 ::: warning
 
@@ -73,7 +73,7 @@ The WAD files should be on your SD card like this:
 
 ### Section II - Installing
 
-1. Copy the `apps` folder from the d2x-replaceme `.zip` to the root of your SD card or USB drive.
+1. Copy the `apps` folder from the d2x-currentversion `.zip` to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
 1. Power on your console.
 1. Launch the Homebrew Channel.
@@ -81,7 +81,7 @@ The WAD files should be on your SD card like this:
 1. Set everything to match the following:
 
     ```
-    Select cIOS <d2x-replaceme>
+    Select cIOS <d2x-currentversion>
     Select cIOS base <38>
     Select cIOS slot <248>
     Select cIOS revision <65535>
@@ -91,7 +91,7 @@ The WAD files should be on your SD card like this:
 
     ::: info
 
-    If you do not see `d2x-replaceme`, exit the installer with B, and make sure your SD card is unlocked.
+    If you do not see `d2x-currentversion`, exit the installer with B, and make sure your SD card is unlocked.
 
     :::
 
@@ -135,7 +135,7 @@ The WAD files should be on your SD card like this:
     + cIOS 249 Installation
 
         ```
-        Select cIOS <d2x-replaceme>
+        Select cIOS <d2x-currentversion>
         Select cIOS base <56>
         Select cIOS slot <249>
         Select cIOS revision <65535>
@@ -146,7 +146,7 @@ The WAD files should be on your SD card like this:
     + cIOS 250 Installation
 
         ```
-        Select cIOS <d2x-replaceme>
+        Select cIOS <d2x-currentversion>
         Select cIOS base <57>
         Select cIOS slot <250>
         Select cIOS revision <65535>
@@ -157,7 +157,7 @@ The WAD files should be on your SD card like this:
     + cIOS 251 Installation
 
         ```
-        Select cIOS <d2x-replaceme>
+        Select cIOS <d2x-currentversion>
         Select cIOS base <58>
         Select cIOS slot <251>
         Select cIOS revision <65535>
@@ -202,7 +202,7 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 
 * A Wii U with the Homebrew Channel installed on the vWii
 * An SD card or USB drive
-* The [d2x cIOS Installer for vWii](https://github.com/wiidev/d2x-cios/releases/download/d2x-replaceme/d2x-replaceme-vWii.zip)
+* The [d2x cIOS Installer for vWii](https://github.com/wiidev/d2x-cios/releases/download/d2x-currentversion/d2x-currentversion-vWii.zip)
 
 ::: warning
 
@@ -214,7 +214,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ### Section I - Installing
 
-1. Copy the `apps` folder from the d2x-replaceme-vWii `.zip` to the root of your SD card or USB drive.
+1. Copy the `apps` folder from the d2x-currentversion-vWii `.zip` to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
 1. Power on your console.
 1. Launch the Homebrew Channel.
@@ -222,7 +222,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 1. Set everything to match the following:
 
     ```
-    Select cIOS <d2x-replaceme-vWii>
+    Select cIOS <d2x-currentversion-vWii>
     Select cIOS base <38>
     Select cIOS slot <248>
     ```
@@ -244,7 +244,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
     + cIOS 249 Installation
     
         ```
-        Select cIOS <d2x-replaceme-vWii>
+        Select cIOS <d2x-currentversion-vWii>
         Select cIOS base <56>
         Select cIOS slot <249>
         ```
@@ -254,7 +254,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
     + cIOS 250 Installation
 
         ```
-        Select cIOS <d2x-replaceme-vWii>
+        Select cIOS <d2x-currentversion-vWii>
         Select cIOS base <57>
         Select cIOS slot <250>
         ```
@@ -264,7 +264,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
     + cIOS 251 Installation
 
         ```
-        Select cIOS <d2x-replaceme-vWii>
+        Select cIOS <d2x-currentversion-vWii>
         Select cIOS base <58>
         Select cIOS slot <251>
         ```
