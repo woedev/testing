@@ -42,12 +42,6 @@ If you are on macOS or Linux, you may download & run [this script](/assets/files
 
 :::
 
-::: info
-
-If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
-
-:::
-
 1. Power off your console.
 1. Insert your SD card or USB drive into your computer.
 1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
@@ -73,17 +67,11 @@ The WAD files should be on your SD card like this:
 
 ### Section I - Installing
 
-::: Click here if you need to perform an offline install
+::: details Click here if you need to perform an offline install
 
 ::: info
 
 If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.zip), and it will download the WAD files for you.
-
-:::
-
-::: info
-
-If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
 
 :::
 
