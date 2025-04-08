@@ -1,6 +1,5 @@
 ---
-head:
-  - - script: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js'
+outline: false
 ---
 
 # cIOS
@@ -72,7 +71,46 @@ The WAD files should be on your SD card like this:
 
 :::
 
-### Section II - Installing
+### Section I - Installing
+
+::: Click here if you need to perform an offline install
+
+::: info
+
+If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.zip), and it will download the WAD files for you.
+
+:::
+
+::: info
+
+If you are able to connect your Wii to the internet, you may skip to [Section II](cios#section-ii---installing)
+
+:::
+
+1. Power off your console.
+1. Insert your SD card or USB drive into your computer.
+1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
+1. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
+1. Run `NUS Downloader.exe`.
+1. Navigate to `Database` > `IOS` > `IOS38`, then select `v4123`.
+    + Ensure that "Pack WAD" is checked.
+    + *Don't* check "Patch IOS". That is the cIOS Installer's job.
+1. Click `Start NUS Download!`.
+1. Repeat the above steps for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
+1. When the process is complete, there will be a folder named `titles` in the same folder as the NUS Downloader.
+1. Open the `titles` folder and navigate through them until you locate the four WAD files you downloaded.
+1. Place each WAD file on the root of your SD card or USB drive.
+    + This must be the same device containing the d2x cIOS Installer.
+
+::: info
+
+The WAD files should be on your SD card like this:
+
+![](/images/cios/d2x_offline_ios.png)
+
+:::
+
+:::
 
 1. Copy the `apps` folder from the d2x-currentversion `.zip` to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
