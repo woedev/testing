@@ -37,7 +37,7 @@ export default defineConfig({
     hu_HU: i18n.hu_HU
   },
   sitemap: {
-    hostname: 'https://wii.hacks.guide'
+    hostname: 'https://woedev.github.io'
   },
   themeConfig: {
     outline: {
