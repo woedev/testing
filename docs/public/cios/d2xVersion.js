@@ -12,26 +12,32 @@ $(document).ready(function () {
 });
 */
 
-const font = new FontFace("DOSVGA", "url(https://woedev.github.io/testing/cios/LessPerfectDOSVGA.woff)", {
-    style: "normal",
-    weight: "normal",
-});
+(async function () {
+    async function loadFonts() {
+        const font = new FontFace("DOSVGA", "url(https://woedev.github.io/testing/cios/LessPerfectDOSVGA.woff)", {
+            style: "normal",
+            weight: "normal",
+        });
 
-try {
-    await font.load();
-    document.fonts.add(newFont);
+        try {
+            await font.load();
+            document.fonts.add(newFont);
 
-    const canvas = document.getElementById("d2x-canvas");
-    const ctx = canvas.getContext("2d");
-    const image = document.getElementById("d2x-image");
+            const canvas = document.getElementById("d2x-canvas");
+            const ctx = canvas.getContext("2d");
+            const image = document.getElementById("d2x-image");
 
-    canvas.width = image.naturalWidth;
-    canvas.height = image.naturalHeight;
-    ctx.drawImage(image, 0, 0);
+            canvas.width = image.naturalWidth;
+            canvas.height = image.naturalHeight;
+            ctx.drawImage(image, 0, 0);
 
-    ctx.font = "16px DOSVGA";
-    ctx.fillStyle = "#D3D3D3";
-    ctx.fillText("<d2x-v11-beta3>", 120, 133);
-} catch (e) {
-    console.error('Failed to load custom font');
-  }
+            ctx.font = "16px DOSVGA";
+            ctx.fillStyle = "#D3D3D3";
+            ctx.fillText("<d2x-v11-beta3>", 120, 133);
+        } catch (e) {
+            console.error('Failed to load custom font');
+        }
+    }
+
+    await loadFonts();
+})();
