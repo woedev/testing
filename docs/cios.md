@@ -19,6 +19,21 @@ head: [['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jqu
   <img id="d2x-image" src="./public/images/cios/d2x_v11_248.png" alt=""/>
 </div>
 
+
+<script>
+const canvas = document.getElementById("d2x-canvas");
+const ctx = canvas.getContext("2d");
+const image = document.getElementById("d2x-image");
+    
+canvas.width = image.naturalWidth;
+canvas.height = image.naturalHeight;
+ctx.drawImage(image, 0, 0);
+
+ctx.font = "16px DOSVGA";
+ctx.fillStyle = "#D3D3D3";
+ctx.fillText("<d2x-v11-beta3>", 120, 133);
+</script>
+
 ::::: tabs
 
 :::: tab cIOS for Wii/Family Edition
@@ -355,17 +370,3 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 ::::
 
 :::::
-
-<script>
-const canvas = document.getElementById("d2x-canvas");
-const ctx = canvas.getContext("2d");
-const image = document.getElementById("d2x-image");
-    
-canvas.width = image.naturalWidth;
-canvas.height = image.naturalHeight;
-ctx.drawImage(image, 0, 0);
-
-ctx.font = "16px DOSVGA";
-ctx.fillStyle = "#D3D3D3";
-ctx.fillText("<d2x-v11-beta3>", 120, 133);
-</script>
