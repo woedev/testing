@@ -1,18 +1,24 @@
 ---
 outline: false
-head: [['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js' }],['script', { src: '/testing/js/d2xVersion.js' }]]
+head: [['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js' }],['script', { src: '/testing/cios/d2xVersion.js' }]]
 ---
 
 # cIOS
 
 <div>
     <div class='d2x-image'>
-        <img  src="./public/images/cios/d2x_offline_ios.png">
-        <div class="d2x-version">fuck-knows</div>
+        <img  src="./public/images/cios/d2x_v11_248.png">
+        <div class="d2x-version">&#x3c;d2x-currentversion&#x3e;</div>
     </div>
 </div>
 
 <style>
+@font-face {
+  font-family: 'DOSVGA';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/public/cios/LessPerfectDOSVGA.woff') format('woff');
+}
 .d2x-image {
   position: relative;
   display: inline-block;
@@ -24,14 +30,12 @@ head: [['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jqu
 }
 .d2x-version {
   position: absolute;
-  top: 50%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
-  background-color: #000000; 
-  color: #fff; 
-  padding: 10px 20px; 
-  font-size: 20px; 
-  text-align: center;
+  top: 123px; 
+  left: 121px;
+  color: #fff;
+  font-size: 16px;
+  text-align: left;
+  font-family: 'DOSVGA';
 }
 </style>
 
