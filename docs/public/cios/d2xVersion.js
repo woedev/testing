@@ -9,7 +9,9 @@ $(document).ready(function () {
         document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion', lastKnownVersion);
     })
 
-    loadFonts(lastKnownVersion);
+        (async function () {
+            await loadFonts(lastKnownVersion);
+        })();
 });
 
 async function loadFonts(ver) {
