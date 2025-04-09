@@ -22,7 +22,7 @@ $(document).ready(function () {
         ctx.drawImage(image, 0, 0);
     };
     
-    img.src = './public/images/cios/d2x_v11_248.png';
+    image.src = './public/images/cios/d2x_v11_248.png';
 
 //    canvas.width = image.naturalWidth;
 //    canvas.height = image.naturalHeight;
