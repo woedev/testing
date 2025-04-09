@@ -1,4 +1,4 @@
-let lastKnownVersion = "d2x-v11-beta3";
+//let lastKnownVersion = "d2x-v11-beta3";
 
 /*
 $(document).ready(function () {
