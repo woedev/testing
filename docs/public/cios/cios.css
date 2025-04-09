@@ -2,7 +2,7 @@
     font-family: 'DOSVGA';
     font-style: normal;
     font-weight: normal;
-    src: url('./cios/LessPerfectDOSVGA.woff') format('woff');
+    src: url('LessPerfectDOSVGA.woff') format('woff');
     font-display: swap;
 }
 #d2x-canvas {
