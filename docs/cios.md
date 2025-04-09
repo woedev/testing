@@ -8,7 +8,7 @@ head: [['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jqu
 <div>
     <div class='d2x-image'>
         <img  src="./public/images/cios/d2x_v11_248.png">
-        <div class="d2x-version">&#x3c;d2x-currentversion&#x3e;</div>
+        <div id="d2xv" class="d2x-version">&#x3c;d2x-currentversion&#x3e;</div>
     </div>
 </div>
 
