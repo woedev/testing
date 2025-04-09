@@ -23,15 +23,16 @@ $(document).ready(function () {
         ctx.fillText("<d2x-v11-beta3>", 120, 133);
     */
 
-
-    var c = document.getElementById("d2x-canvas");
-    var ctx = c.getContext("2d");
-    var img1 = new Image();
-    img1.onload = function () {
-        canvas.width = 640;
-        canvas.height = 480;
-        ctx.drawImage(img1, 0, 0);
-    };
-    img1.src = 'https://raw.githubusercontent.com/woedev/testing/refs/heads/master/docs/public/images/cios/d2x_v11_248.png';
-
 });
+
+const canvas = document.getElementById("d2x-canvas");
+const ctx = canvas.getContext("2d");
+const image = document.getElementById("d2x-image");
+    
+canvas.width = image.naturalWidth;
+canvas.height = image.naturalHeight;
+ctx.drawImage(image, 0, 0);
+
+ctx.font = "16px DOSVGA";
+ctx.fillStyle = "#D3D3D3";
+ctx.fillText("<d2x-v11-beta3>", 120, 133);
