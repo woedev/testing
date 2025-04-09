@@ -2,7 +2,7 @@
     font-family: 'DOSVGA';
     font-style: normal;
     font-weight: normal;
-    src: url('https://woedev.github.io/testing/cios/LessPerfectDOSVGA.woff') format('woff');
+    src: url('/public/cios/LessPerfectDOSVGA.woff') format('woff');
 }
 #d2x-canvas {
     width: 100%;
