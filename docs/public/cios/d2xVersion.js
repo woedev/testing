@@ -11,16 +11,7 @@ $(document).ready(function () {
 });
 */
 
-(async function () {
-    async function loadFonts() {
-        const font = new FontFace("DOSVGA", "url(https://woedev.github.io/testing/cios/LessPerfectDOSVGA.woff)", {
-            style: "normal",
-            weight: "normal",
-        });
 
-        try {
-            await font.load();
-            document.fonts.add(font);
 
             const canvas = document.getElementById("d2x-canvas");
             const ctx = canvas.getContext("2d");
@@ -32,12 +23,4 @@ $(document).ready(function () {
 
             ctx.font = "16px DOSVGA";
             ctx.fillStyle = "#D3D3D3";
-            ctx.fillText("<" + "lastKnownVersion" + ">", 120, 133);
-        } catch (e) {
-            console.error('Failed to load custom font');
-        }
-    }
-
-    await loadFonts();
-})();
-
+            ctx.fillText("<" + "d2x-v11-beta3" + ">", 120, 133);
