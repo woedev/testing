@@ -1,9 +1,12 @@
+let lastKnownVersion = "";//"d2x-v11-beta3";
+
 $(document).ready(function () {
     const lastKnownVersion = "d2x-v11-beta3"; // Update this when required
 
     $.getJSON("https://api.github.com/repos/wiidev/d2x-cios/releases/latest").done(function (json) {
         document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion-vWii', json.name + '-vWii');
         document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion', json.name);
+        lastKnownVersion = json.name;
     }).fail(function () {
         document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion-vWii', lastKnownVersion + '-vWii');
         document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion', lastKnownVersion);
@@ -31,7 +34,7 @@ $(document).ready(function () {
 
             ctx.font = "16px DOSVGA";
             ctx.fillStyle = "#D3D3D3";
-            ctx.fillText("<d2x-v11-beta3>", 120, 133);
+            ctx.fillText("<" + lastKnownVersion + ">", 120, 133);
         } catch (e) {
             console.error('Failed to load custom font');
         }
