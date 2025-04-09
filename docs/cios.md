@@ -1,6 +1,6 @@
 ---
 outline: false
-head: [['link', { rel: 'preload', href: 'https://woedev.github.io/testing/cios/cios.css', as: 'style' }],['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js' }],['script', { src: '/testing/cios/d2xVersion.js', defer: '' }]]
+head: [['link', { rel: 'stylesheet', href: 'https://woedev.github.io/testing/cios/cios.css' }],['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js' }],['script', { src: '/testing/cios/d2xVersion.js', defer: '' }]]
 ---
 
 # cIOS
