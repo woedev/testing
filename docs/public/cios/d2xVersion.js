@@ -10,14 +10,14 @@ $(document).ready(function () {
     })
 });
 
-const canvas = document.getElementById("d2x-canvas");
-const ctx = canvas.getContext("2d");
+
 const image = document.getElementById("d2x-image");
-
-canvas.width = image.naturalWidth;
-canvas.height = image.naturalHeight;
-
 image.addEventListener("load", (e) => {
+    const canvas = document.getElementById("d2x-canvas");
+    const ctx = canvas.getContext("2d");
+    canvas.width = image.naturalWidth;
+    canvas.height = image.naturalHeight;
+
     ctx.drawImage(image, 0, 0);
 
     ctx.font = "16px DOSVGA";
