@@ -8,4 +8,7 @@ $(document).ready(function () {
         document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion-vWii', lastKnownVersion + '-vWii');
         document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion', lastKnownVersion);
     })
+    fitty('.d2x-version', {
+        maxSize: 16,
+    });
 });
