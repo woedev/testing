@@ -1,9 +1,3 @@
-@font-face {
-    font-family: 'DOSVGA';
-    font-style: normal;
-    font-weight: normal;
-    src: url('/public/cios/LessPerfectDOSVGA.woff') format('woff');
-}
 #d2x-canvas {
     width: 100%;
     max-width: 640px;
