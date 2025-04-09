@@ -33,7 +33,7 @@ head: [['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jqu
   top: 117px;
   left: 120px;
   color: #D3D3D3;
-  font-size: 16px;
+  /*font-size: 16px;*/
   text-align: left;
   font-family: 'DOSVGA';
   -webkit-touch-callout: none;
