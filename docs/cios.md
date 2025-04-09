@@ -5,10 +5,24 @@ head: [['link', { rel: 'preload', href: 'https://woedev.github.io/testing/cios/L
 
 # cIOS
 
-<canvas id="d2x-canvas"></canvas>
+<canvas id="d2x-canvas" height="480" width="640"></canvas>
 <div style="display:none;">
   <img id="d2x-image" src="./public/images/cios/d2x_v11_248.png" alt=""/>
 </div>
+
+<script>
+  const canvas = document.getElementById("d2x-canvas");
+  const ctx = canvas.getContext("2d");
+  const image = document.getElementById("d2x-image");
+
+  canvas.width = image.naturalWidth;
+  canvas.height = image.naturalHeight;
+  ctx.drawImage(image, 0, 0);
+
+  ctx.font = "16px DOSVGA";
+  ctx.fillStyle = "#D3D3D3";
+  ctx.fillText("<" + "d2x-v11-beta3" + ">", 120, 133);
+</script>
 
 ::::: tabs
 

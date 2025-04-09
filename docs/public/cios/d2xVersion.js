@@ -12,7 +12,7 @@ $(document).ready(function () {
 */
 
 
-
+/*
             const canvas = document.getElementById("d2x-canvas");
             const ctx = canvas.getContext("2d");
             const image = document.getElementById("d2x-image");
@@ -24,3 +24,7 @@ $(document).ready(function () {
             ctx.font = "16px DOSVGA";
             ctx.fillStyle = "#D3D3D3";
             ctx.fillText("<" + "d2x-v11-beta3" + ">", 120, 133);
+
+
+            document.getElementById("d2x-canvas").getContext("2d").drawImage(image, 0, 0);
+*/
