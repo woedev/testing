@@ -30,12 +30,18 @@ head: [['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jqu
 }
 .d2x-version {
   position: absolute;
-  top: 117px; 
+  top: 117px;
   left: 120px;
-  color: #fff;
+  color: #D3D3D3;
   font-size: 16px;
   text-align: left;
   font-family: 'DOSVGA';
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 </style>
 
