@@ -1,4 +1,4 @@
-let lastKnownVersion = "";//"d2x-v11-beta3";
+var lastKnownVersion = "";//"d2x-v11-beta3";
 
 $(document).ready(function () {
     const lastKnownVersion = "d2x-v11-beta3"; // Update this when required
