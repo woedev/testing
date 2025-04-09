@@ -5,6 +5,36 @@ head: [['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jqu
 
 # cIOS
 
+<div>
+    <div class='d2x-image'>
+        <img  src="./public/images/cios/d2x_offline_ios.png">
+        <div class="d2x-version">fuck-knows</div>
+    </div>
+</div>
+
+<style>
+.d2x-image {
+  position: relative;
+  display: inline-block;
+}
+.d2x-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.d2x-version {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #000000; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-align: center;
+}
+</style>
+
 ::::: tabs
 
 :::: tab cIOS for Wii/Family Edition
