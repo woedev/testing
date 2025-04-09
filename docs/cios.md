@@ -7,9 +7,7 @@ head: [['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jqu
 
 <canvas id="d2x-canvas"></canvas>
 <div style="display:none;">
-  <img
-    id="d2x-image"
-    src="./public/images/cios/d2x_v11_248.png" />
+  <img id="d2x-image" src="./public/images/cios/d2x_v11_248.png" alt=""/>
 </div>
 
 ::::: tabs
