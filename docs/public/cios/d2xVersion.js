@@ -14,6 +14,7 @@ $(document).ready(function () {
 document.getElementById("d2x-image").addEventListener("load", (e) => {
     const canvas = document.getElementById("d2x-canvas");
     const ctx = canvas.getContext("2d");
+    const image = document.getElementById("d2x-image");
     canvas.width = image.naturalWidth;
     canvas.height = image.naturalHeight;
 
