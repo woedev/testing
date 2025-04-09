@@ -28,6 +28,8 @@ $(document).ready(function () {
     var ctx = c.getContext("2d");
     var img1 = new Image();
     img1.onload = function () {
+        canvas.width = 640;
+        canvas.height = 480;
         ctx.drawImage(img1, 0, 0);
     };
     img1.src = 'https://raw.githubusercontent.com/woedev/testing/refs/heads/master/docs/public/images/cios/d2x_v11_248.png';
