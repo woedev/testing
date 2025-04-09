@@ -11,8 +11,7 @@ $(document).ready(function () {
 });
 
 
-const image = document.getElementById("d2x-image");
-image.addEventListener("load", (e) => {
+document.getElementById("d2x-image").addEventListener("load", (e) => {
     const canvas = document.getElementById("d2x-canvas");
     const ctx = canvas.getContext("2d");
     canvas.width = image.naturalWidth;
