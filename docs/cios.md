@@ -1,20 +1,7 @@
 ---
 outline: false
-head: [['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js' }],['script', { src: '/testing/cios/d2xVersion.js', defer: '' }]]
+head: [['link', { rel: 'stylesheet', href: 'testing/cios/cios.css',}],['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js' }],['script', { src: '/testing/cios/d2xVersion.js', defer: '' }]]
 ---
-
-<style>
-@font-face {
-    font-family: 'DOSVGA';
-    font-style: normal;
-    font-weight: normal;
-    src: url('/public/cios/LessPerfectDOSVGA.woff') format('woff');
-}
-#d2x-canvas {
-    width: 100%;
-    max-width: 640px;
-}
-</style>
 
 # cIOS
 

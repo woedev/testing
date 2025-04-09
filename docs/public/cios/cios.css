@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'console';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/public/cios/LessPerfectDOSVGA.woff') format('woff');
+}
+#d2x-canvas {
+    width: 100%;
+    max-width: 640px;
+}
