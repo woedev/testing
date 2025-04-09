@@ -1,8 +1,6 @@
-var lastKnownVersion = "";//"d2x-v11-beta3";
+let lastKnownVersion = "";//"d2x-v11-beta3";
 
 $(document).ready(function () {
-    const lastKnownVersion = "d2x-v11-beta3"; // Update this when required
-
     $.getJSON("https://api.github.com/repos/wiidev/d2x-cios/releases/latest").done(function (json) {
         document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion-vWii', json.name + '-vWii');
         document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion', json.name);
