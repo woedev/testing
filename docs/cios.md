@@ -1,50 +1,16 @@
 ---
 outline: false
-head: [['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js' }],['script', { src: '/testing/cios/d2xVersion.js' }],['script', { src: '/testing/cios/fitty.js' }]]
+head: [['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js' }],['script', { src: '/testing/cios/d2xVersion.js' }]]
 ---
 
 # cIOS
 
-<div>
-    <div class='d2x-image'>
-        <img  src="./public/images/cios/d2x_v11_248.png">
-        <div class="d2x-version">&#x3c;d2x-currentversion&#x3e;</div>
-    </div>
+<canvas id="d2x-canvas"></canvas>
+<div style="display:none;">
+  <img
+    id="d2x-image"
+    src="./public/images/cios/d2x_v11_248.png" />
 </div>
-
-<style>
-@font-face {
-  font-family: 'DOSVGA';
-  font-style: normal;
-  font-weight: normal;
-  src: url('/public/cios/LessPerfectDOSVGA.woff') format('woff');
-}
-.d2x-image {
-  position: relative;
-  display: inline-block;
-}
-.d2x-image img {
-  display: block;
-  /*width: 100%;*/
-  width: auto;
-  height: auto;
-}
-.d2x-version {
-  position: absolute;
-  top: 117px;
-  left: 120px;
-  color: #D3D3D3;
-  /*font-size: 16px;*/
-  text-align: left;
-  font-family: 'DOSVGA';
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-</style>
 
 ::::: tabs
 
