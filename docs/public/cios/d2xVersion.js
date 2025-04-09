@@ -11,7 +11,7 @@ $(document).ready(function () {
 });
 
 
-const font = new FontFace("DOSVGA", 'url(./LessPerfectDOSVGA.woff) format("woff")', {
+const font = new FontFace("DOSVGA", 'url(https://woedev.github.io/testing/cios/LessPerfectDOSVGA.woff) format("woff")', {
     style: "normal",
     weight: "normal",
 });
