@@ -6,7 +6,7 @@ head: [['link', { rel: 'preload', href: 'https://woedev.github.io/testing/cios/L
 # cIOS
 
 <canvas id="d2x-canvas" height="480" width="640"></canvas>
-<div style="display:none;">
+<div>
   <img id="d2x-image" src="./public/images/cios/d2x_v11_248.png" alt=""/>
 </div>
 
