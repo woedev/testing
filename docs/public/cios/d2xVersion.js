@@ -21,7 +21,7 @@ $(document).ready(function () {
 
         try {
             await font.load();
-            document.fonts.add(newFont);
+            document.fonts.add(font);
 
             const canvas = document.getElementById("d2x-canvas");
             const ctx = canvas.getContext("2d");
