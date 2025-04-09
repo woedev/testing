@@ -30,8 +30,8 @@ head: [['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jqu
 }
 .d2x-version {
   position: absolute;
-  top: 123px; 
-  left: 121px;
+  top: 117px; 
+  left: 120px;
   color: #fff;
   font-size: 16px;
   text-align: left;
