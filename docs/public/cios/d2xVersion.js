@@ -20,11 +20,10 @@ $(document).ready(function () {
 
     image.onload = () => {
         ctx.drawImage(image, 0, 0);
+        ctx.font = "16px DOSVGA";
+        ctx.fillStyle = "#D3D3D3";
+        ctx.fillText("<" + "d2x-v11-beta3" + ">", 120, 133);
     };
-
-    ctx.font = "16px DOSVGA";
-    ctx.fillStyle = "#D3D3D3";
-    ctx.fillText("<" + "d2x-v11-beta3" + ">", 120, 133);
     
     image.src = './images/cios/d2x_v11_248.png';
 
