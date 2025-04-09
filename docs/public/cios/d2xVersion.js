@@ -23,4 +23,4 @@ image.addEventListener("load", (e) => {
     ctx.font = "16px DOSVGA";
     ctx.fillStyle = "#D3D3D3";
     ctx.fillText("<d2x-v11-beta3>", 120, 133);
-}
+});
