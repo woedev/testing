@@ -8,10 +8,7 @@ $(document).ready(function () {
         document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion-vWii', lastKnownVersion + '-vWii');
         document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion', lastKnownVersion);
     })
-});
 
-
-document.addEventListener("load", (e) => {
     const canvas = document.getElementById("d2x-canvas");
     const ctx = canvas.getContext("2d");
     const image = document.getElementById("d2x-image");
@@ -20,7 +17,7 @@ document.addEventListener("load", (e) => {
 
     ctx.drawImage(image, 0, 0);
 
-    ctx.font = "16px DOSVGA";
+    ctx.font = "16px Arial";
     ctx.fillStyle = "#D3D3D3";
     ctx.fillText("<d2x-v11-beta3>", 120, 133);
 });
