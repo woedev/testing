@@ -3,6 +3,15 @@ outline: false
 head: [['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js' }],['script', { src: '/testing/cios/d2xVersion.js' }]]
 ---
 
+<style>
+@font-face {
+  font-family: 'DOSVGA';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/public/cios/LessPerfectDOSVGA.woff') format('woff');
+}
+</style>
+
 # cIOS
 
 <canvas id="d2x-canvas"></canvas>
