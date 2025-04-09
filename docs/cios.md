@@ -45,10 +45,6 @@ head: [['script', { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jqu
 }
 </style>
 
-<script>
-  fitty('.d2x-version');
-</script>
-
 ::::: tabs
 
 :::: tab cIOS for Wii/Family Edition
