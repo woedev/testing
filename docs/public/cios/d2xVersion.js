@@ -1,45 +1,39 @@
-//let lastKnownVersion = "";//"d2x-v11-beta3";
-
 $(document).ready(function () {
-    const lastKnownVersion = "d2x-v11-beta3";
+    let lastKnownVersion = "d2x-v11-beta3";
     $.getJSON("https://api.github.com/repos/wiidev/d2x-cios/releases/latest").done(function (json) {
         document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion-vWii', json.name + '-vWii');
         document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion', json.name);
+        lastKnownVersion = json.name;
     }).fail(function () {
         document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion-vWii', lastKnownVersion + '-vWii');
         document.body.innerHTML = document.body.innerHTML.replaceAll('d2x-currentversion', lastKnownVersion);
     })
 
-    loadFonts();
+    loadFonts(lastKnownVersion);
 });
 
-//(async function () {
-    async function loadFonts() {
-        const font = new FontFace("DOSVGA", "url(https://woedev.github.io/testing/cios/LessPerfectDOSVGA.woff)", {
-            style: "normal",
-            weight: "normal",
-        });
+async function loadFonts(ver) {
+    const font = new FontFace("DOSVGA", "url(https://woedev.github.io/testing/cios/LessPerfectDOSVGA.woff)", {
+        style: "normal",
+        weight: "normal",
+    });
 
-        try {
-            await font.load();
-            document.fonts.add(font);
+    try {
+        await font.load();
+        document.fonts.add(font);
 
-            const canvas = document.getElementById("d2x-canvas");
-            const ctx = canvas.getContext("2d");
-            const image = document.getElementById("d2x-image");
+        const canvas = document.getElementById("d2x-canvas");
+        const ctx = canvas.getContext("2d");
+        const image = document.getElementById("d2x-image");
 
-            canvas.width = image.naturalWidth;
-            canvas.height = image.naturalHeight;
-            ctx.drawImage(image, 0, 0);
+        canvas.width = image.naturalWidth;
+        canvas.height = image.naturalHeight;
+        ctx.drawImage(image, 0, 0);
 
-            ctx.font = "16px DOSVGA";
-            ctx.fillStyle = "#D3D3D3";
-            ctx.fillText("<" + "what" + ">", 120, 133);
-        } catch (e) {
-            console.error('Failed to load custom font');
-        }
+        ctx.font = "16px DOSVGA";
+        ctx.fillStyle = "#D3D3D3";
+        ctx.fillText("<" + ver + ">", 120, 133);
+    } catch (e) {
+        console.error('Failed to load custom font');
     }
-
-//    await loadFonts();
-//})();
-
+}
