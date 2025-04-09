@@ -1,7 +1,7 @@
 const lastKnownVersion = "d2x-v11-beta3";
 
-const canvas = document.getElementById("d2x-canvas");
-const ctx = canvas.getContext("2d");
+var canvas = document.getElementById("d2x-canvas");
+var ctx = canvas.getContext("2d");
 
 $(document).ready(function () {
     $.getJSON("https://api.github.com/repos/wiidev/d2x-cios/releases/latest").done(function (json) {
