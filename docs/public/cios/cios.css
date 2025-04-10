@@ -5,7 +5,8 @@
     src: url('LessPerfectDOSVGA.woff') format('woff');
     font-display: swap;
 }
-#d2x-canvas {
-    width: 100%;
-    max-width: 640px;
+canvas[id^="d2x_"] {
+    display: inline;
+    max-width: 100%;
+    height: auto;
 }
