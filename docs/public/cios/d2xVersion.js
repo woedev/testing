@@ -13,7 +13,7 @@ $(document).ready(function () {
 
 (async function () {
     async function loadFonts() {
-        const font = new FontFace("DOSVGA", "url(LessPerfectDOSVGA.woff)", {
+        const font = new FontFace("DOSVGA", "url(cios/LessPerfectDOSVGA.woff)", {
             style: "normal",
             weight: "normal",
         });
