@@ -4,6 +4,7 @@
     font-weight: normal;
     font-smooth: never;
     -webkit-font-smoothing: none;
+    image-rendering: pixelated;
     src: url('LessPerfectDOSVGA.woff') format('woff');
 }
 

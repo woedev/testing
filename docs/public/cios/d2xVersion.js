@@ -48,6 +48,9 @@ function loadImage(imageID) {
     canvas.height = 480 * ratio;
     canvas.style.width = "640px";
     canvas.style.height = "480px";
+    canvas.imageSmoothingEnabled = false;
+    canvas.fontKerning = "none";
+    canvas.textRendering = "optimizeLegibility";
     ctx.scale(ratio, ratio);
 
     let image = new Image();
