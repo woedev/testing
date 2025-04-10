@@ -6,6 +6,7 @@
     font-display: swap;
 }
 canvas[id^="d2x_"] {
-    max-width: 100%;
-    height: auto;
+    display: inline;
+    width: 100%;
+    max-width: 640px;
 }
