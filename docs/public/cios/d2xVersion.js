@@ -11,11 +11,25 @@ $(document).ready(function () {
 });
 */
 
-(function () {
-    loadImage("d2x_v11_248");
-    loadImage("d2x_v11_249");
-    loadImage("d2x_v11_250");
-    loadImage("d2x_v11_251");
+(async function () {
+    async function loadFonts() {
+        const font = new FontFace("DOSVGA", "url(https://woedev.github.io/testing/cios/LessPerfectDOSVGA.woff)", {
+            style: "normal",
+            weight: "normal",
+        });
+        try {
+            await font.load();
+            document.fonts.add(font);
+
+            loadImage("d2x_v11_248");
+            loadImage("d2x_v11_249");
+            loadImage("d2x_v11_250");
+            loadImage("d2x_v11_251");
+        } catch (e) {
+            console.error('Failed to load custom font');
+        }
+    }
+    await loadFonts();
 })();
 
 
