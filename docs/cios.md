@@ -73,37 +73,37 @@ The WAD files should be on your SD card like this:
 1. Launch d2x cIOS Installer from the list of homebrew.
 1. Set everything to match the following:
 
-    ```
-    Select cIOS <d2x-currentversion>
-    Select cIOS base <38>
-    Select cIOS slot <248>
-    Select cIOS revision <65535>
-    ```
+```
+Select cIOS <d2x-currentversion>
+Select cIOS base <38>
+Select cIOS slot <248>
+Select cIOS revision <65535>
+```
 
-    <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
-        <image width="640" height="480" href="/images/cios/d2x_v11_248.png" />
-        <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
-    </svg>
+<svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+    <image width="640" height="480" href="/images/cios/d2x_v11_248.png" />
+    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
+</svg>
 
-    ::: info
+::: info
 
-    If you do not see `d2x-currentversion`, exit the installer with B, and make sure your SD card is unlocked.
+If you do not see `d2x-currentversion`, exit the installer with B, and make sure your SD card is unlocked.
 
-    :::
+:::
 
-    ::: info
+::: info
     
-    The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
+The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
 
-    :::
+:::
 
-    ::: info
+::: info
     
-    If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode.
+If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode.
 
-    (If you are trying to exit the installer, the button is B, not Home.)
+(If you are trying to exit the installer, the button is B, not Home.)
 
-    :::
+:::
     
 1. Press `A`. This will bring you to the slot map:
 
