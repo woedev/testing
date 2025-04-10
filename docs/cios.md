@@ -9,19 +9,14 @@ head: [
 # cIOS
 
 ::::: tabs
-
 :::: tab cIOS for Wii/Family Edition
 
 ::: details Technical Details (optional)
-
 cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
-
 :::
 
 ::: warning
-
 Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing so will likely [brick](bricks#ios-brick) your console.
-
 :::
 
 ## Requirements
@@ -31,16 +26,20 @@ Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing s
 * The [d2x cIOS Installer](https://github.com/wiidev/d2x-cios/releases/download/d2x-currentversion/d2x-currentversion.zip)
 
 ::: warning
-
 Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
-
 :::
 
 ## Instructions
 
-### Section I - Installing
+### Section I - Downloading
 
-::: details Information for offline installs (optional)
+::: tip
+You can skip this section and proceed to [Section II](#section-ii---installing) if your Wii has access to the internet.
+:::
+
+::: info
+If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.zip), and it will download the WAD files for you.
+:::
 
 1. Power off your console.
 2. Insert your SD card or USB drive into your computer.
@@ -63,15 +62,16 @@ The WAD files should be on your SD card like this:
 ![](/images/cios/d2x_offline_ios.png)
 :::
 
+### Section II - Installing
+
 1. Copy the `apps` folder from the d2x-currentversion `.zip` to the root of your SD card or USB drive.
 2. Reinsert your SD card or USB drive into your console.
 3. Power on your console.
 4. Launch the Homebrew Channel.
 5. Launch d2x cIOS Installer from the list of homebrew.
+6. Set everything to match the following:
 
 #### cIOS 248
-
-6. Set everything to match the following:
 
 ```
 Select cIOS <d2x-currentversion>
@@ -345,3 +345,4 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 :::
 
 ::::
+:::::
