@@ -165,7 +165,7 @@ Select cIOS revision <65535>
 12. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
 
 ::: info
-If you downloaded the 4 WAD files in Section I, you may now delete them from your SD card/USB drive.
+If you downloaded the 4 WAD files in [Section I](#section-i-downloading), you may now delete them from your SD card/USB drive.
 :::
 
 ::: tip
@@ -176,7 +176,7 @@ Now that your Wii has adequate brick protection, you can install the Open Shop C
 
 ::::
 
-:::: tab cIOS for vWii (Wii U)
+:::: tab cIOS for vWii (Wii U) id="second-tab"
 
 
 ::: details Technical Details (optional)
@@ -274,7 +274,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ::::
 
-:::: tab cIOS for Wii mini
+:::: tab cIOS for Wii mini id="third-tab"
 
 ::: info
 
