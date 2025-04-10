@@ -9,7 +9,7 @@ head: [
 # cIOS
 
 ::::: tabs
-:::: tab "cIOS for Wii/Family Edition"
+:::: tab cIOS for Wii/Family Edition
 
 ::: details Technical Details (optional)
 cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
