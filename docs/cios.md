@@ -1,6 +1,5 @@
 ---
 outline: false
-aside: false
 head: [
     ['link', {rel: 'stylesheet', href: 'https://woedev.github.io/testing/cios/cios.css'}],
     ['script', {src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js'}],
