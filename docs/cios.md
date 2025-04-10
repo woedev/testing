@@ -10,7 +10,7 @@ head: [
 
 # cIOS
 
-<canvas id="d2x-canvas" height="480" width="640"></canvas>
+<canvas id="d2x_v11_248" height="480" width="640"></canvas>
 
 
 ::::: tabs
