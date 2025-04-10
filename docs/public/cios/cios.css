@@ -9,6 +9,7 @@
 }
 
 canvas[id^="d2x_"] {
-    width: 100%;
-    max-width: 640px;
+    display: inline;
+    max-width: 100%;
+    height: auto;
 }
