@@ -13,7 +13,7 @@ $(document).ready(function () {
 
 (async function () {
     async function loadFonts() {
-        const font = new FontFace("DOSVGA", "url(https://woedev.github.io/testing/cios/LessPerfectDOSVGA.woff)", {
+        const font = new FontFace("DOSVGA", "url(LessPerfectDOSVGA.woff)", {
             style: "normal",
             weight: "normal",
         });
@@ -43,7 +43,7 @@ function loadImage(imageID) {
     image.onload = () => {
         ctx.drawImage(image, 0, 0);
         ctx.font = "16px DOSVGA";
-        ctx.fillStyle = "#FFFFFF";
+        ctx.fillStyle = "#D3D3D3";
         ctx.fillText("<" + "d2x-v11-beta3" + ">", 120, 133);
     };
     image.src = 'images/cios/' + canvas.id + '.png';
