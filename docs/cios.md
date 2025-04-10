@@ -89,11 +89,11 @@ If you do not see `d2x-currentversion`, exit the installer with B, and make sure
 :::
 
 ::: info
-The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
+The warning `(c)IOS detected in slot ### will be overwritten` can be safely ignored.
 :::
 
 ::: info
-If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode.
+If you are seeing `Slot ### already used in batch settings` or `cIOS already added in batch with revision ##### and slot ###`, press `-` to disable batch mode.
 
 (If you are trying to exit the installer, the button is B, not Home.)
 :::
@@ -119,7 +119,7 @@ If you are getting an error before/during the downloading stages (eg. `tcp_conne
 10. Press `A`. This will return you to the configuration screen.
 11. Repeat the previous 5 steps with the following configurations:
 
-+ cIOS 249 Installation
+### cIOS 249 Installation
 
 ```
 Select cIOS <d2x-currentversion>
@@ -133,7 +133,7 @@ Select cIOS revision <65535>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
 </svg>
 
-+ cIOS 250 Installation
+### cIOS 250 Installation
 
 ```
 Select cIOS <d2x-currentversion>
@@ -147,7 +147,7 @@ Select cIOS revision <65535>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
 </svg>
 
-+ cIOS 251 Installation
+### cIOS 251 Installation
 
 ```
 Select cIOS <d2x-currentversion>
@@ -344,5 +344,3 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 :::
 
 ::::
-
-:::::
