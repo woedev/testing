@@ -2,9 +2,6 @@
     font-family: 'DOSVGA';
     font-style: normal;
     font-weight: normal;
-    font-smooth: never;
-    -webkit-font-smoothing: none;
-    image-rendering: pixelated;
     src: url('LessPerfectDOSVGA.woff') format('woff');
 }
 
@@ -18,4 +15,10 @@ svg {
     width: 100%;
     max-width: 640px;
     height: auto;
-  }
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
