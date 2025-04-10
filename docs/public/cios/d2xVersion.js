@@ -45,8 +45,8 @@ function loadImage(imageID) {
         ctx.font = "16px DOSVGA";
         ctx.fillStyle = "#D3D3D3";
         ctx.fillText("<" + "d2x-v11-beta3" + ">", 120, 133);
-        resample_single(canvas, 618, 463, true);
-        //sharpen(ctx, 640, 480, 0.1);
+        //resample_single(canvas, 618, 463, true);
+        sharpen(ctx, 640, 480, 0.1);
     };
     image.src = 'images/cios/' + canvas.id + '.png';
 }
