@@ -85,104 +85,92 @@ Select cIOS revision <65535>
 </svg>
 
 ::: info
-
 If you do not see `d2x-currentversion`, exit the installer with B, and make sure your SD card is unlocked.
-
 :::
 
 ::: info
-    
 The warning "`(c)IOS detected in slot ### will be overwritten`" can be safely ignored.
-
 :::
 
 ::: info
-    
 If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already added in batch with revision ##### and slot ###`", press `-` to disable batch mode.
 
 (If you are trying to exit the installer, the button is B, not Home.)
-
 :::
     
 1. Press `A`. This will bring you to the slot map:
 
-    ![](/images/cios/d2x_summary.png)
+![](/images/cios/d2x_summary.png)
     
 1. Press `A` again.
 
-    ![](/images/cios/d2x_installation.png)
+![](/images/cios/d2x_installation.png)
     
 1. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
 
-    ![](/images/cios/d2x_log.png)
+![](/images/cios/d2x_log.png)
 
-    ::: info
+::: info
+If the slot is highlighted red, try to install the cIOS again.
 
-    If the slot is highlighted red, try to install the cIOS again.
-
-    If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Section I](#section-i---downloading).
-
-    :::
+If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Section I](#section-i---downloading).
+:::
 
 1. Press `A`. This will return you to the configuration screen.
 1. Repeat the previous 5 steps with the following configurations:
 
     + cIOS 249 Installation
 
-        ```
-        Select cIOS <d2x-currentversion>
-        Select cIOS base <56>
-        Select cIOS slot <249>
-        Select cIOS revision <65535>
-        ```
+```
+Select cIOS <d2x-currentversion>
+Select cIOS base <56>
+Select cIOS slot <249>
+Select cIOS revision <65535>
+```
 
-        <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
-            <image width="640" height="480" href="/images/cios/d2x_v11_249.png" />
-            <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
-        </svg>
+<svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+    <image width="640" height="480" href="/images/cios/d2x_v11_249.png" />
+    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
+</svg>
 
     + cIOS 250 Installation
 
-        ```
-        Select cIOS <d2x-currentversion>
-        Select cIOS base <57>
-        Select cIOS slot <250>
-        Select cIOS revision <65535>
-        ```
+```
+Select cIOS <d2x-currentversion>
+Select cIOS base <57>
+Select cIOS slot <250>
+Select cIOS revision <65535>
+```
 
-        <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
-            <image width="640" height="480" href="/images/cios/d2x_v11_250.png" />
-            <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
-        </svg>
+<svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+    <image width="640" height="480" href="/images/cios/d2x_v11_250.png" />
+    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
+</svg>
 
     + cIOS 251 Installation
 
-        ```
-        Select cIOS <d2x-currentversion>
-        Select cIOS base <58>
-        Select cIOS slot <251>
-        Select cIOS revision <65535>
-        ```
+```
+Select cIOS <d2x-currentversion>
+Select cIOS base <58>
+Select cIOS slot <251>
+Select cIOS revision <65535>
+```
 
-        <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
-            <image width="640" height="480" href="/images/cios/d2x_v11_251.png" />
-            <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
-        </svg>
+<svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+    <image width="640" height="480" href="/images/cios/d2x_v11_251.png" />
+    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
+</svg>
 
 1. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
 
 ::: info
-
 If you downloaded the 4 WAD files in Section I, you may now delete them from your SD card/USB drive.
-
 :::
 
 ::: tip
-
 [Continue to Open Shop Channel installation](osc)
 
 Now that your Wii has adequate brick protection, you can install the Open Shop Channel, a trusted repository for homebrew that can be accessed both on and off the Wii.
-
 :::
 
 ::::
