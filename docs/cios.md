@@ -176,7 +176,7 @@ Now that your Wii has adequate brick protection, you can install the Open Shop C
 
 ::::
 
-:::: tab cIOS for vWii (Wii U) id="second-tab"
+:::: tab "cIOS for vWii (Wii U)" id="second-tab"
 
 
 ::: details Technical Details (optional)
@@ -274,7 +274,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ::::
 
-:::: tab cIOS for Wii mini id="third-tab"
+:::: tab "cIOS for Wii mini" id="third-tab"
 
 ::: info
 
