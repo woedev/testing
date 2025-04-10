@@ -43,7 +43,7 @@ function loadImage(imageID) {
     image.onload = () => {
         ctx.drawImage(image, 0, 0);
         ctx.font = "16px DOSVGA";
-        ctx.fillStyle = "#D3D3D3";
+        ctx.fillStyle = "#FFFFFF";
         ctx.fillText("<" + "d2x-v11-beta3" + ">", 120, 133);
     };
     image.src = 'images/cios/' + canvas.id + '.png';
