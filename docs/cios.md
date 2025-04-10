@@ -34,7 +34,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 ### Section I - Downloading
 
 ::: tip
-You can skip this section and proceed to [Section II](#section-ii---installing) if your Wii has access to the internet.
+You can skip this section and proceed to [Section II](#section-ii-installing) if your Wii has access to the internet.
 :::
 
 ::: info
@@ -114,7 +114,7 @@ If you are seeing `Slot ### already used in batch settings` or `cIOS already add
 ::: info
 If the slot is highlighted red, try to install the cIOS again.
 
-If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Section I](#section-i---downloading).
+If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Section I](#section-i-downloading).
 :::
 
 10. Press `A`. This will return you to the configuration screen.
