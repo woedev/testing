@@ -40,14 +40,11 @@ function loadImage(imageID) {
 */
 
 function loadImage(imageID) {
-    const ratio = window.devicePixelRatio || 1;
     const canvas = document.getElementById(imageID);
     const ctx = canvas.getContext("2d");
 
-    canvas.width = 640 * ratio;
-    canvas.height = 480 * ratio;
-    //canvas.style.width = "640px";
-    canvas.style.height = "480px";
+    canvas.width=1000;
+    canvas.height=500;
 
     let image = new Image();
     image.onload = () => {
