@@ -80,8 +80,7 @@ The WAD files should be on your SD card like this:
     Select cIOS revision <65535>
     ```
 
-    <canvas id="d2x_v11_248"></canvas>
-    <svg width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+    <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
         <image width="640" height="480" href="/images/cios/d2x_v11_248.png" />
         <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
     </svg>
@@ -138,8 +137,7 @@ The WAD files should be on your SD card like this:
         Select cIOS revision <65535>
         ```
 
-        <canvas id="d2x_v11_249"></canvas>
-        <svg width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+        <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
             <image width="640" height="480" href="/images/cios/d2x_v11_249.png" />
             <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
         </svg>
@@ -153,8 +151,7 @@ The WAD files should be on your SD card like this:
         Select cIOS revision <65535>
         ```
 
-        <canvas id="d2x_v11_250"></canvas>
-        <svg width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+        <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
             <image width="640" height="480" href="/images/cios/d2x_v11_250.png" />
             <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
         </svg>
@@ -168,8 +165,7 @@ The WAD files should be on your SD card like this:
         Select cIOS revision <65535>
         ```
 
-        <canvas id="d2x_v11_251"></canvas>
-        <svg width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+        <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
             <image width="640" height="480" href="/images/cios/d2x_v11_251.png" />
             <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
         </svg>

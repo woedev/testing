@@ -11,7 +11,8 @@ canvas[id^="d2x_"] {
     height: auto;
 }
 
-svg {
+#cIOS-svg {
+    display: inline;
     width: 100%;
     max-width: 640px;
     height: auto;
