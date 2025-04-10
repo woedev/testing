@@ -40,17 +40,14 @@ function loadImage(imageID) {
 */
 
 function loadImage(imageID) {
-    const ratio = window.devicePixelRatio;
+    const ratio = window.devicePixelRatio || 1;
     const canvas = document.getElementById(imageID);
     const ctx = canvas.getContext("2d");
-
-    canvas.width = 640 * ratio;
-    canvas.height = 480 * ratio;
-    canvas.style.width = "640px";
+    const rect = canvas.getBoundingClientRect();
+    canvas.width = rect.width * ratio;
+    canvas.height = rect.height * ratio;
+    //canvas.style.width = "640px";
     canvas.style.height = "480px";
-    canvas.imageSmoothingEnabled = false;
-    canvas.fontKerning = "none";
-    canvas.textRendering = "optimizeLegibility";
     ctx.scale(ratio, ratio);
 
     let image = new Image();
@@ -58,9 +55,6 @@ function loadImage(imageID) {
         ctx.drawImage(image, 0, 0);
         ctx.font = "16px DOSVGA";
         ctx.fillStyle = "#D3D3D3";
-        ctx.imageSmoothingEnabled = false;
-        ctx.textRendering = "optimizeLegibility";
-        ctx.fontKerning = "none";
         ctx.fillText("<" + "d2x-v11-beta3" + ">", 120, 133);
     };
     image.src = 'images/cios/' + canvas.id + '.png';
