@@ -25,6 +25,8 @@ function loadImage(imageID) {
 
     let image = new Image();
     image.onload = () => {
+        canvas.width = 640;
+        canvas.height = 480;
         ctx.drawImage(image, 0, 0);
         ctx.font = "16px DOSVGA";
         ctx.fillStyle = "#D3D3D3";

@@ -3,10 +3,8 @@
     font-style: normal;
     font-weight: normal;
     src: url('LessPerfectDOSVGA.woff') format('woff');
-    font-display: swap;
 }
 canvas[id^="d2x_"] {
-    display: inline;
     width: 100%;
     max-width: 640px;
 }
