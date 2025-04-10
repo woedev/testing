@@ -69,7 +69,7 @@ The WAD files should be on your SD card like this:
 4. Launch the Homebrew Channel.
 5. Launch d2x cIOS Installer from the list of homebrew.
 
-#### cIOS 248 Installation
+#### cIOS 248
 
 6. Set everything to match the following:
 
@@ -120,7 +120,7 @@ If you are getting an error before/during the downloading stages (eg. `tcp_conne
 10. Press `A`. This will return you to the configuration screen.
 11. Repeat the previous 5 steps with the following configurations:
 
-#### cIOS 249 Installation
+#### cIOS 249
 
 ```
 Select cIOS <d2x-currentversion>
@@ -134,7 +134,7 @@ Select cIOS revision <65535>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
 </svg>
 
-#### cIOS 250 Installation
+#### cIOS 250
 
 ```
 Select cIOS <d2x-currentversion>
@@ -148,7 +148,7 @@ Select cIOS revision <65535>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
 </svg>
 
-#### cIOS 251 Installation
+#### cIOS 251
 
 ```
 Select cIOS <d2x-currentversion>
