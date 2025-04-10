@@ -43,7 +43,7 @@ function loadImage(imageID) {
     const canvas = document.getElementById(imageID);
     const ctx = canvas.getContext("2d");
 
-    const image = new Image();
+    let image = new Image();
     image.onload = () => {
         ctx.scale(ratio, ratio);
         ctx.drawImage(image, 0, 0);
