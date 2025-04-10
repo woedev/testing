@@ -10,9 +10,6 @@ head: [
 
 # cIOS
 
-<canvas id="d2x_v11_248" height="480" width="640"></canvas>
-
-
 ::::: tabs
 
 :::: tab cIOS for Wii/Family Edition
@@ -82,7 +79,7 @@ The WAD files should be on your SD card like this:
     Select cIOS revision <65535>
     ```
 
-    ![](/images/cios/d2x_v11_248.png)
+    <canvas id="d2x_v11_248" height="480" width="640"></canvas>
 
     ::: info
 
@@ -136,7 +133,7 @@ The WAD files should be on your SD card like this:
         Select cIOS revision <65535>
         ```
 
-        ![](/images/cios/d2x_v11_249.png)
+        <canvas id="d2x_v11_249" height="480" width="640"></canvas>
 
     + cIOS 250 Installation
 
@@ -147,7 +144,7 @@ The WAD files should be on your SD card like this:
         Select cIOS revision <65535>
         ```
 
-        ![](/images/cios/d2x_v11_250.png)
+        <canvas id="d2x_v11_250" height="480" width="640"></canvas>
 
     + cIOS 251 Installation
 
@@ -158,7 +155,7 @@ The WAD files should be on your SD card like this:
         Select cIOS revision <65535>
         ```
 
-        ![](/images/cios/d2x_v11_251.png)
+        <canvas id="d2x_v11_251" height="480" width="640"></canvas>
 
 1. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
 

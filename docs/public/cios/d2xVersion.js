@@ -12,7 +12,15 @@ $(document).ready(function () {
 */
 
 (function () {
-    const canvas = document.getElementById("d2x_v11_248");
+    loadImage("d2x_v11_248");
+    loadImage("d2x_v11_249");
+    loadImage("d2x_v11_250");
+    loadImage("d2x_v11_251");
+})();
+
+
+function loadImage(imageID) {
+    const canvas = document.getElementById(imageID);
     const ctx = canvas.getContext("2d");
 
     let image = new Image();
@@ -22,6 +30,5 @@ $(document).ready(function () {
         ctx.fillStyle = "#D3D3D3";
         ctx.fillText("<" + "d2x-v11-beta3" + ">", 120, 133);
     };
-    //image.src = 'images/cios/d2x_v11_248.png';
     image.src = 'images/cios/' + canvas.id + '.png';
-})();
+}
