@@ -47,6 +47,7 @@ function loadImage(imageID) {
         ctx.fillText("<" + "d2x-v11-beta3" + ">", 120, 133);
     };
     image.src = 'images/cios/' + canvas.id + '.png';
+    console.log(canvas.toDataURL('image/jpeg', 1.0));
 }
 
 
