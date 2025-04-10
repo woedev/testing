@@ -13,3 +13,9 @@ canvas[id^="d2x_"] {
     max-width: 100%;
     height: auto;
 }
+
+svg {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+  }
