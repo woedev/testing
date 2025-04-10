@@ -43,15 +43,15 @@ function loadImage(imageID) {
     const ratio = window.devicePixelRatio || 1;
     const canvas = document.getElementById(imageID);
     const ctx = canvas.getContext("2d");
-    const rect = canvas.getBoundingClientRect();
-    canvas.width = rect.width * ratio;
-    canvas.height = rect.height * ratio;
+
+    canvas.width = 640 * ratio;
+    canvas.height = 480 * ratio;
     //canvas.style.width = "640px";
     canvas.style.height = "480px";
-    ctx.scale(ratio, ratio);
 
     let image = new Image();
     image.onload = () => {
+        ctx.scale(ratio, ratio);
         ctx.drawImage(image, 0, 0);
         ctx.font = "16px DOSVGA";
         ctx.fillStyle = "#D3D3D3";
