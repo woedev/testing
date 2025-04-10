@@ -18,30 +18,34 @@ $(document).ready(function () {
     loadImage("d2x_v11_251");
 })();
 
-/*
+
 function loadImage(imageID) {
     const canvas = document.getElementById(imageID);
     const ctx = canvas.getContext("2d");
+    canvas.width = 640;
+    canvas.height = 480;
 
     let image = new Image();
     image.onload = () => {
-        canvas.width = 640;
-        canvas.height = 480;
         ctx.drawImage(image, 0, 0);
         ctx.font = "16px DOSVGA";
         ctx.fillStyle = "#D3D3D3";
-        ctx.imageSmoothingEnabled = false;
-        ctx.textRendering = "optimizeLegibility";
-        ctx.fontKerning = "none";
         ctx.fillText("<" + "d2x-v11-beta3" + ">", 120, 133);
     };
     image.src = 'images/cios/' + canvas.id + '.png';
 }
-*/
 
+
+/*
 function loadImage(imageID) {
+    const ratio = window.devicePixelRatio || 1;
     const canvas = document.getElementById(imageID);
     const ctx = canvas.getContext("2d");
+
+    canvas.width = 640 * ratio;
+    canvas.height = 480 * ratio;
+    //canvas.style.width = "640px";
+    canvas.style.height = "480px";
 
     let image = new Image();
     image.onload = () => {
@@ -53,3 +57,4 @@ function loadImage(imageID) {
     };
     image.src = 'images/cios/' + canvas.id + '.png';
 }
+*/
