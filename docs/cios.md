@@ -45,18 +45,18 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 ::: details Information for offline installs (optional)
 
 1. Power off your console.
-1. Insert your SD card or USB drive into your computer.
-1. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
-1. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
-1. Run `NUS Downloader.exe`.
-1. Navigate to `Database` > `IOS` > `IOS38`, then select `v4123`.
+2. Insert your SD card or USB drive into your computer.
+3. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
+4. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
+5. Run `NUS Downloader.exe`.
+6. Navigate to `Database` > `IOS` > `IOS38`, then select `v4123`.
     + Ensure that "Pack WAD" is checked.
     + *Don't* check "Patch IOS". That is the cIOS Installer's job.
-1. Click `Start NUS Download!`.
-1. Repeat the above steps for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
-1. When the process is complete, there will be a folder named `titles` in the same folder as the NUS Downloader.
-1. Open the `titles` folder and navigate through them until you locate the four WAD files you downloaded.
-1. Place each WAD file on the root of your SD card or USB drive.
+7. Click `Start NUS Download!`.
+8. Repeat the above steps for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
+9. When the process is complete, there will be a folder named `titles` in the same folder as the NUS Downloader.
+10. Open the `titles` folder and navigate through them until you locate the four WAD files you downloaded.
+11. Place each WAD file on the root of your SD card or USB drive.
     + This must be the same device containing the d2x cIOS Installer.
 
 ::: info
@@ -66,11 +66,11 @@ The WAD files should be on your SD card like this:
 :::
 
 1. Copy the `apps` folder from the d2x-currentversion `.zip` to the root of your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
-1. Power on your console.
-1. Launch the Homebrew Channel.
-1. Launch d2x cIOS Installer from the list of homebrew.
-1. Set everything to match the following:
+2. Reinsert your SD card or USB drive into your console.
+3. Power on your console.
+4. Launch the Homebrew Channel.
+5. Launch d2x cIOS Installer from the list of homebrew.
+6. Set everything to match the following:
 
 ```
 Select cIOS <d2x-currentversion>
@@ -98,15 +98,15 @@ If you are seeing "`Slot ### already used in batch settings`" or "`cIOS already 
 (If you are trying to exit the installer, the button is B, not Home.)
 :::
     
-1. Press `A`. This will bring you to the slot map:
+7. Press `A`. This will bring you to the slot map:
 
 ![](/images/cios/d2x_summary.png)
     
-1. Press `A` again.
+8. Press `A` again.
 
 ![](/images/cios/d2x_installation.png)
     
-1. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
+9. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
 
 ![](/images/cios/d2x_log.png)
 
@@ -116,10 +116,10 @@ If the slot is highlighted red, try to install the cIOS again.
 If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Section I](#section-i---downloading).
 :::
 
-1. Press `A`. This will return you to the configuration screen.
-1. Repeat the previous 5 steps with the following configurations:
+10. Press `A`. This will return you to the configuration screen.
+11. Repeat the previous 5 steps with the following configurations:
 
-    + cIOS 249 Installation
++ cIOS 249 Installation
 
 ```
 Select cIOS <d2x-currentversion>
@@ -133,7 +133,7 @@ Select cIOS revision <65535>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
 </svg>
 
-    + cIOS 250 Installation
++ cIOS 250 Installation
 
 ```
 Select cIOS <d2x-currentversion>
@@ -147,7 +147,7 @@ Select cIOS revision <65535>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
 </svg>
 
-    + cIOS 251 Installation
++ cIOS 251 Installation
 
 ```
 Select cIOS <d2x-currentversion>
@@ -161,7 +161,7 @@ Select cIOS revision <65535>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
 </svg>
 
-1. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
+12. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
 
 ::: info
 If you downloaded the 4 WAD files in Section I, you may now delete them from your SD card/USB drive.
