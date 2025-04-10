@@ -38,7 +38,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
 ## Instructions
 
-### Section I - Installing
+#### cIOS 248 Installation
 
 ::: details Information for offline installs (optional)
 
