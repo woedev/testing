@@ -30,7 +30,7 @@ Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing s
 If you're using an SD card, ensure that the lock switch is in the unlocked position, otherwise you'll be unable to select the correct options in the installer.
 :::
 
-### Downloading
+## Downloading
 
 ::: tip
 You can skip this section and proceed to [Installing](#installing) if your Wii has internet access.
@@ -61,7 +61,7 @@ The WAD files should be on your SD card like this:
 ![](/images/cios/d2x_offline_ios.png)
 :::
 
-### Installing
+## Installing
 
 1. Copy the `apps` folder from [d2x-currentversion.zip](https://github.com/wiidev/d2x-cios/releases/download/d2x-currentversion/d2x-currentversion.zip) to the root of your SD card or USB drive.
 2. Reinsert your SD card or USB drive into your console.
@@ -70,7 +70,7 @@ The WAD files should be on your SD card like this:
 5. Launch d2x cIOS Installer from the list of homebrew.
 6. Set everything to match the following:
 
-#### cIOS 248 (base 38)
+### cIOS 248 (base 38)
 
 ```
 Select cIOS <d2x-currentversion>
@@ -122,7 +122,7 @@ If you are getting an error before/during the downloading stages (eg. `tcp_conne
 10. Press `A`. This will return you to the configuration screen.
 11. Repeat the previous 5 steps with the following configurations:
 
-#### cIOS 249 (base 56)
+### cIOS 249 (base 56)
 
 ```
 Select cIOS <d2x-currentversion>
@@ -136,7 +136,7 @@ Select cIOS revision <65535>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
 </svg>
 
-#### cIOS 250 (base 57)
+### cIOS 250 (base 57)
 
 ```
 Select cIOS <d2x-currentversion>
@@ -150,7 +150,7 @@ Select cIOS revision <65535>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
 </svg>
 
-#### cIOS 251 (base 58)
+### cIOS 251 (base 58)
 
 ```
 Select cIOS <d2x-currentversion>
