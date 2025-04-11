@@ -363,11 +363,14 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
 
     function replaceVersion(version) {
-        document.body.querySelectorAll("*:not(script)").forEach((element) => {
+        const elements = document.body.querySelectorAll("*:not(script)");
+
+        for (const element of elements) {
+            // Replace text nodes
             for (const node of element.childNodes) {
                 if (node.nodeType === Node.TEXT_NODE) {
                     const text = node.nodeValue;
-                    if (text.includes("d2x-currentversion-vWii") || text.includes("d2x-currentversion")) {
+                    if (text.includes("d2x-currentversion")) {
                         node.nodeValue = text
                             .replace(/d2x-currentversion-vWii/g, version + "-vWii")
                             .replace(/d2x-currentversion/g, version);
@@ -375,16 +378,17 @@ document.addEventListener("DOMContentLoaded", async function () {
                 }
             }
 
-            if (element.nodeName === "A" && element.hasAttribute("href")) {
+            // Replace href attributes in <a> elements
+            if (element.nodeName === "A") {
                 const href = element.getAttribute("href");
-                if (href.includes("d2x-currentversion-vWii") || href.includes("d2x-currentversion")) {
+                if (href && href.includes("d2x-currentversion")) {
                     element.setAttribute(
                         "href",
                         href.replace(/d2x-currentversion-vWii/g, version + "-vWii").replace(/d2x-currentversion/g, version)
                     );
                 }
             }
-        });
+        }
     }
 
     const latestVersion = await fetchLatestVersion();
