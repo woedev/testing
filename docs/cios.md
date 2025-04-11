@@ -27,7 +27,7 @@ Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing s
 * The [d2x cIOS Installer](https://github.com/wiidev/d2x-cios/releases/download/d2x-currentversion/d2x-currentversion.zip)
 
 ::: warning
-Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
+If you're using an SD card, ensure that the lock switch is in the unlocked position, otherwise you'll be unable to select the correct options in the installer.
 :::
 
 ## Instructions
@@ -199,9 +199,7 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 * The [d2x cIOS Installer for vWii](https://github.com/wiidev/d2x-cios/releases/download/d2x-currentversion/d2x-currentversion-vWii.zip)
 
 ::: warning
-
-Ensure that if you are using an SD card, the lock switch is in the unlocked position, otherwise you will not be able to select the correct options in the installer.
-
+If you're using an SD card, ensure that the lock switch is in the unlocked position, otherwise you'll be unable to select the correct options in the installer.
 :::
 
 ## Instructions
