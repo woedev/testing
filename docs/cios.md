@@ -19,7 +19,7 @@ cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While 
 Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing so will likely [brick](bricks#ios-brick) your console.
 :::
 
-## Requirements
+## Requirements {#d2x-wii-requirements}
 
 * A Wii with the Homebrew Channel installed
 * An SD card or USB drive
@@ -29,7 +29,7 @@ Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing s
 If you're using an SD card, ensure that the lock switch is in the unlocked position, otherwise you'll be unable to select the correct options in the installer.
 :::
 
-## Downloading
+## Downloading {#d2x-wii-downloading}
 
 ::: tip
 You can skip this section and proceed to [Installing](#installing) if your Wii has internet access.
@@ -60,7 +60,7 @@ The WAD files should be on your SD card like this:
 ![](/images/cios/d2x_offline_ios.png)
 :::
 
-## Installing
+## Installing {#d2x-wii-installing}
 
 1. Copy the `apps` folder from [d2x-currentversion.zip](https://github.com/wiidev/d2x-cios/releases/download/d2x-currentversion/d2x-currentversion.zip) to the root of your SD card or USB drive.
 2. Reinsert your SD card or USB drive into your console.
@@ -186,7 +186,7 @@ cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While 
 Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing so will likely [brick](bricks#ios-brick) your console.
 :::
 
-## Requirements
+## Requirements {#d2x-vwii-requirements}
 
 * A Wii U with the Homebrew Channel installed on the vWii
 * An SD card or USB drive
@@ -196,7 +196,7 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 If you're using an SD card, ensure that the lock switch is in the unlocked position, otherwise you'll be unable to select the correct options in the installer.
 :::
 
-## Instructions
+## Instructions {#d2x-vwii-downloading}
 
 ### Section I - Installing
 
@@ -232,9 +232,6 @@ If you do not see `d2x-currentversion-vWii`, exit the installer with B, and make
 </svg>
     
 8. Repeat the previous 2 steps with the following configurations:
-
-<a name="test-point"></a>
-[A test point](#test-point)
 
 #### cIOS 249 (base 56)
     
