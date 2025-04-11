@@ -1,4 +1,5 @@
 ---
+outline: false
 head: [
     ['link', {rel: 'stylesheet', href: 'https://woedev.github.io/testing/cios/cios.css'}],
     ['script', {src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js'}],
@@ -29,12 +30,10 @@ Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing s
 If you're using an SD card, ensure that the lock switch is in the unlocked position, otherwise you'll be unable to select the correct options in the installer.
 :::
 
-## Instructions
-
-### Section I - Downloading
+### Downloading
 
 ::: tip
-You can skip this section and proceed to [Section II](#section-ii-installing) if your Wii has internet access.
+You can skip this section and proceed to [Installing](#installing) if your Wii has internet access.
 :::
 
 ::: info
@@ -62,7 +61,7 @@ The WAD files should be on your SD card like this:
 ![](/images/cios/d2x_offline_ios.png)
 :::
 
-### Section II - Installing
+### Installing
 
 1. Copy the `apps` folder from [d2x-currentversion.zip](https://github.com/wiidev/d2x-cios/releases/download/d2x-currentversion/d2x-currentversion.zip) to the root of your SD card or USB drive.
 2. Reinsert your SD card or USB drive into your console.
@@ -117,7 +116,7 @@ If you are seeing `Slot ### already used in batch settings` or `cIOS already add
 ::: info
 If the slot is highlighted red, try to install the cIOS again.
 
-If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Section I](#section-i-downloading).
+If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Section I](#downloading).
 :::
 
 10. Press `A`. This will return you to the configuration screen.
