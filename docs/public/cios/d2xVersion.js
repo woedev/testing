@@ -1,15 +1,10 @@
-window.onload = async function () {
+window.onload = function () {
     const fallbackVersion = "d2x-v11-beta2";
 
-    async function fetchLatestVersion() {
-        try {
-            const response = await fetch("https://api.github.com/repos/wiidev/d2x-cios/releases/latest");
-            if (!response.ok) throw new Error("API request failed");
-            const data = await response.json();
-            return data.name || fallbackVersion;
-        } catch {
-            return fallbackVersion;
-        }
+    function fetchLatestVersion() {
+        return $.getJSON("https://api.github.com/repos/wiidev/d2x-cios/releases/latest")
+            .then((data) => data.name || fallbackVersion)
+            .catch(() => fallbackVersion);
     }
 
     function replaceVersion(version) {
@@ -31,6 +26,7 @@ window.onload = async function () {
         });
     }
 
-    const latestVersion = await fetchLatestVersion();
-    replaceVersion(latestVersion);
+    fetchLatestVersion().then((latestVersion) => {
+        replaceVersion(latestVersion);
+    });
 };
