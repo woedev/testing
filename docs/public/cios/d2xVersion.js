@@ -28,6 +28,15 @@ $(function () {
             const node = collection[i].attributes[0];
             node.nodeValue = node.nodeValue.replace(/d2x-currentversion/g, json.name);
         }
+    }).fail(function () {
+        const lastKnownVersion = "d2x-v11-beta3";
+
+        walkText(document.body, lastKnownVersion);
+        const collection = document.getElementsByTagName("a");
+        for (let i = 0; i < collection.length; i++) {
+            const node = collection[i].attributes[0];
+            node.nodeValue = node.nodeValue.replace(/d2x-currentversion/g, lastKnownVersion);
+        }
     })
 });
 
