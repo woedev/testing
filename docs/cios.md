@@ -7,6 +7,38 @@ head: [
 ]
 ---
 
+<script>
+    window.latestVersion = "d2x-v11-beta2";
+    fetch("https://api.github.com/repos/wiidev/d2x-cios/releases/latest")
+        .then((response) => response.json())
+        .then((data) => {
+            window.latestVersion = data.name || "d2x-v11-beta2";
+        })
+        .catch(() => {});
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const version = window.latestVersion;
+        const versionVWii = version + "-vWii";
+
+        document.body.querySelectorAll("*:not(script)").forEach((element) => {
+            element.childNodes.forEach((node) => {
+                if (node.nodeType === Node.TEXT_NODE) {
+                    node.nodeValue = node.nodeValue
+                        .replace(/d2x-currentversion-vWii/g, versionVWii)
+                        .replace(/d2x-currentversion/g, version);
+                } else if (node.nodeType === Node.ELEMENT_NODE && node.nodeName === "A" && node.hasAttribute("href")) {
+                    const href = node.getAttribute("href");
+                    node.setAttribute(
+                        "href",
+                        href.replace(/d2x-currentversion-vWii/g, versionVWii).replace(/d2x-currentversion/g, version)
+                    );
+                }
+            });
+        });
+    });
+</script>
+
 # cIOS
 
 ::::: tabs
