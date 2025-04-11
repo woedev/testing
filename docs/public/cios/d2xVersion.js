@@ -26,7 +26,7 @@ $(function () {
 });
 
 function walkText(node, newVersion) {
-    if (node.nodeType == 3) {
+    if (node.nodeType == 3 || node.nodeType == 2) {
         node.data = node.data.replace(/d2x-currentversion/g, newVersion);
     }
     if (node.nodeType == 1 && node.nodeName != "SCRIPT") {
