@@ -331,7 +331,7 @@ Under notes, you will see an IOS version number ending in either `v31775` or `v3
 If the install fails with a `TMD version mismatch` error, press left or right on the directional pad over the `Select cIOS base` option until the version number is different than the one you tried before. The number 57 will not change.
 :::
 
-11. When the process is complete, exit the installer.
+11. Once you have installed the cIOS, press `B` to return to the Homebrew Channel.
 
 ::: tip
 [Continue to finalizing setup](mini-finalizing-setup)
