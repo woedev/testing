@@ -163,7 +163,7 @@ Select cIOS revision <65535>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
 </svg>
 
-12. Once you have installed the cIOS into the 4 slots, press B to return to the Homebrew Channel.
+12. Once you have installed the cIOS into the 4 slots, press `B` to return to the Homebrew Channel.
 
 ::: info
 If you downloaded the 4 WAD files in the [IOS Downloads](#wii-downloads) section, you may now delete them from your SD card/USB drive.
@@ -270,7 +270,7 @@ Select cIOS slot <251>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion-vWii&gt;</text>
 </svg>
 
-9. Once you have installed the cIOS into the 4 slots, press B to return to the Homebrew Channel.
+9. Once you have installed the cIOS into the 4 slots, press `B` to return to the Homebrew Channel.
 
 ::: tip
 [Continue to finalizing setup](vwii-finalizing-setup)
@@ -325,7 +325,7 @@ Select cIOS slot <249>
 Under notes, you will see an IOS version number ending in either `v31775` or `v31776`. `IOS57-64-v31775` is for NTSC (North American) consoles, while `IOS57-64-v31776` is for PAL (European) consoles. Make sure you are selecting the correct version number for your console.
 :::
 
-10. Press A to install.
+10. Press `A` to install.
 
 ::: info
 If the install fails with a `TMD version mismatch` error, press left or right on the directional pad over the `Select cIOS base` option until the version number is different than the one you tried before. The number 57 will not change.
