@@ -35,7 +35,7 @@ If you're using an SD card, ensure that the lock switch is in the unlocked posit
 ### Section I - Downloading
 
 ::: tip
-You can skip this section and proceed to [Section II](#section-ii-installing) if your Wii has access to the internet.
+You can skip this section and proceed to [Section II](#section-ii-installing) if your Wii has internet access.
 :::
 
 ::: info
@@ -210,63 +210,78 @@ If you're using an SD card, ensure that the lock switch is in the unlocked posit
 ### Section I - Installing
 
 1. Copy the `apps` folder from [d2x-currentversion-vWii.zip](https://github.com/wiidev/d2x-cios/releases/download/d2x-currentversion/d2x-currentversion-vWii.zip) to the root of your SD card or USB drive.
-1. Reinsert your SD card or USB drive into your console.
-1. Power on your console.
-1. Launch the Homebrew Channel.
-1. Launch d2x cIOS Installer from the list of homebrew.
-1. Set everything to match the following:
+2. Reinsert your SD card or USB drive into your console.
+3. Power on your console.
+4. Launch the Homebrew Channel.
+5. Launch d2x cIOS Installer from the list of homebrew.
+6. Set everything to match the following:
 
-    ```
-    Select cIOS <d2x-currentversion-vWii>
-    Select cIOS base <38>
-    Select cIOS slot <248>
-    ```
+#### cIOS 248 (base 38)
 
-    ![](/images/cios/d2x_v11_248_vwii.png)
+```
+Select cIOS <d2x-currentversion-vWii>
+Select cIOS base <38>
+Select cIOS slot <248>
+```
 
-    ::: info
+<svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+    <image width="640" height="480" href="/images/cios/d2x_v11_248_vwii.png" />
+    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion-vWii&gt;</text>
+</svg>
 
-    If you do not see the latest version, exit the installer with B, and make sure your SD card is unlocked.
+::: info
+If you do not see `d2x-currentversion-vWii`, exit the installer with B, and make sure your SD card is unlocked.
+:::
 
-    :::
+7. Press `A` to install.
 
-1. Press `A` to install.
-
-    ![](/images/cios/d2x_installation.png)
+<svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+    <image width="640" height="480" href="/images/cios/d2x_installation.png" />
+    <text x="16" y="389" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">Installing d2x-currentversion-vWii base 38 rev21011 into slot 248 (1/1)...</text>
+</svg>
     
-1. Repeat the previous 2 steps with the following configurations:
+8. Repeat the previous 2 steps with the following configurations:
 
-    + cIOS 249 Installation
+#### cIOS 249 (base 56)
     
-        ```
-        Select cIOS <d2x-currentversion-vWii>
-        Select cIOS base <56>
-        Select cIOS slot <249>
-        ```
+```
+Select cIOS <d2x-currentversion-vWii>
+Select cIOS base <56>
+Select cIOS slot <249>
+```
 
-    ![](/images/cios/d2x_v11_249_vwii.png)
+<svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+    <image width="640" height="480" href="/images/cios/d2x_v11_249_vwii.png" />
+    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion-vWii&gt;</text>
+</svg>
 
-    + cIOS 250 Installation
+#### cIOS 250 (base 57)
 
-        ```
-        Select cIOS <d2x-currentversion-vWii>
-        Select cIOS base <57>
-        Select cIOS slot <250>
-        ```
+```
+Select cIOS <d2x-currentversion-vWii>
+Select cIOS base <57>
+Select cIOS slot <250>
+```
 
-        ![](/images/cios/d2x_v11_250_vwii.png)
+<svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+    <image width="640" height="480" href="/images/cios/d2x_v11_250_vwii.png" />
+    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion-vWii&gt;</text>
+</svg>
 
-    + cIOS 251 Installation
+#### cIOS 251 (base 58)
 
-        ```
-        Select cIOS <d2x-currentversion-vWii>
-        Select cIOS base <58>
-        Select cIOS slot <251>
-        ```
+```
+Select cIOS <d2x-currentversion-vWii>
+Select cIOS base <58>
+Select cIOS slot <251>
+```
 
-        ![](/images/cios/d2x_v11_251_vwii.png)
+<svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+    <image width="640" height="480" href="/images/cios/d2x_v11_251_vwii.png" />
+    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion-vWii&gt;</text>
+</svg>
 
-1. Once you have installed the cIOS into the 4 slots, press B to return to the Homebrew Channel.
+9. Once you have installed the cIOS into the 4 slots, press B to return to the Homebrew Channel.
 
 ::: tip
 
