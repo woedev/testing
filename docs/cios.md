@@ -65,7 +65,7 @@ The WAD files should be on your SD card like this:
 
 ### Section II - Installing
 
-1. Copy the `apps` folder from the d2x-currentversion `.zip` to the root of your SD card or USB drive.
+1. Copy the `apps` folder from [d2x-currentversion.zip](https://github.com/wiidev/d2x-cios/releases/download/d2x-currentversion/d2x-currentversion.zip) to the root of your SD card or USB drive.
 2. Reinsert your SD card or USB drive into your console.
 3. Power on your console.
 4. Launch the Homebrew Channel.
@@ -206,7 +206,7 @@ If you're using an SD card, ensure that the lock switch is in the unlocked posit
 
 ### Section I - Installing
 
-1. Copy the `apps` folder from the d2x-currentversion-vWii `.zip` to the root of your SD card or USB drive.
+1. Copy the `apps` folder from [d2x-currentversion-vWii.zip](https://github.com/wiidev/d2x-cios/releases/download/d2x-currentversion/d2x-currentversion-vWii.zip) to the root of your SD card or USB drive.
 1. Reinsert your SD card or USB drive into your console.
 1. Power on your console.
 1. Launch the Homebrew Channel.
