@@ -4,8 +4,8 @@ head: [
     ['link', {rel: 'stylesheet', href: 'https://woedev.github.io/testing/cios/cios.css'}],
     ['script', {src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js'}],
     ['script',
-    { id: 'register-sw' },
-    `document.addEventListener("readystatechange", function () {
+    {},
+    'document.addEventListener("readystatechange", function () {
         if (document.readyState === "interactive") {
             const fallbackVersion = "d2x-v11-beta2";
 
@@ -41,7 +41,7 @@ head: [
 
             fetchLatestVersion().then(replaceVersion);
         }
-    });`
+    });'
     ]
 ]
 ---
