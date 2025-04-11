@@ -163,7 +163,7 @@ Select cIOS revision <65535>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
 </svg>
 
-12. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
+12. Once you have installed the cIOS into the 4 slots, press B to return to the Homebrew Channel.
 
 ::: info
 If you downloaded the 4 WAD files in [Section I](#section-i-downloading), you may now delete them from your SD card/USB drive.
@@ -265,7 +265,7 @@ Ensure that if you are using an SD card, the lock switch is in the unlocked posi
 
         ![](/images/cios/d2x_v11_251_vwii.png)
 
-1. Once you have finished with all 4 cIOSes, press B to return to the Homebrew Channel.
+1. Once you have installed the cIOS into the 4 slots, press B to return to the Homebrew Channel.
 
 ::: tip
 
