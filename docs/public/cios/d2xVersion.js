@@ -33,6 +33,7 @@ function walkText(node, newVersion) {
 }
 */
 
+/*
 $(function () {
     const fallbackVersion = "d2x-v11-beta2";
 
@@ -64,4 +65,45 @@ $(function () {
     fetchLatestVersion().then((latestVersion) => {
         replaceVersion(latestVersion);
     });
+});
+*/
+
+
+$(function () {
+    const fallbackVersion = "d2x-v11-beta2";
+
+    function fetchLatestVersion() {
+        return $.getJSON("https://api.github.com/repos/wiidev/d2x-cios/releases/latest")
+            .then((data) => data.name || fallbackVersion)
+            .catch(() => fallbackVersion);
+    }
+
+    function replaceVersion(version) {
+        const versionVWii = version + "-vWii";
+
+        // Replace text nodes and href attributes in one pass
+        $("body *:not(script)").each(function () {
+            // Replace text nodes
+            $(this).contents().filter(function () {
+                return this.nodeType === Node.TEXT_NODE && (this.nodeValue.includes("d2x-currentversion-vWii") || this.nodeValue.includes("d2x-currentversion"));
+            }).each(function () {
+                this.nodeValue = this.nodeValue
+                    .replace(/d2x-currentversion-vWii/g, versionVWii)
+                    .replace(/d2x-currentversion/g, version);
+            });
+
+            // Replace href attributes
+            if (this.nodeName === "A" && this.hasAttribute("href")) {
+                const href = this.getAttribute("href");
+                if (href.includes("d2x-currentversion-vWii") || href.includes("d2x-currentversion")) {
+                    this.setAttribute(
+                        "href",
+                        href.replace(/d2x-currentversion-vWii/g, versionVWii).replace(/d2x-currentversion/g, version)
+                    );
+                }
+            }
+        });
+    }
+
+    fetchLatestVersion().then(replaceVersion);
 });
