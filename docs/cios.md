@@ -320,6 +320,9 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 8. Select `Continue`.
 9. Set the options to the following:
+
+#### cIOS 249 (base 57)
+
 ```
 Select cIOS <d2xl-v1-beta2>
 Select cIOS base <57>
