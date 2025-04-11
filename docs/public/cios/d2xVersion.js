@@ -109,6 +109,7 @@ $(function () {
 });
 */
 
+/*
 window.onload = function () {
     const fallbackVersion = "d2x-v11-beta2";
 
@@ -147,6 +148,50 @@ window.onload = function () {
                         .replace(/d2x-currentversion-vWii/g, versionVWii)
                         .replace(/d2x-currentversion/g, version)
                 );
+            }
+        });
+    }
+
+    fetchLatestVersion().then(replaceVersion);
+};
+*/
+
+window.onload = function () {
+    const fallbackVersion = "d2x-v11-beta2";
+
+    function fetchLatestVersion() {
+        return fetch("https://api.github.com/repos/wiidev/d2x-cios/releases/latest")
+            .then((response) => {
+                if (!response.ok) throw new Error("Failed to fetch latest version");
+                return response.json();
+            })
+            .then((data) => data.name || fallbackVersion)
+            .catch(() => fallbackVersion);
+    }
+
+    function replaceVersion(version) {
+        const versionVWii = version + "-vWii";
+
+        // Traverse all elements in the body
+        document.body.querySelectorAll("*:not(script)").forEach((element) => {
+            // Replace text nodes
+            for (const node of element.childNodes) {
+                if (node.nodeType === Node.TEXT_NODE && (node.nodeValue.includes("d2x-currentversion-vWii") || node.nodeValue.includes("d2x-currentversion"))) {
+                    node.nodeValue = node.nodeValue
+                        .replace(/d2x-currentversion-vWii/g, versionVWii)
+                        .replace(/d2x-currentversion/g, version);
+                }
+            }
+
+            // Replace href attributes in <a> elements
+            if (element.nodeName === "A" && element.hasAttribute("href")) {
+                const href = element.getAttribute("href");
+                if (href.includes("d2x-currentversion-vWii") || href.includes("d2x-currentversion")) {
+                    element.setAttribute(
+                        "href",
+                        href.replace(/d2x-currentversion-vWii/g, versionVWii).replace(/d2x-currentversion/g, version)
+                    );
+                }
             }
         });
     }
