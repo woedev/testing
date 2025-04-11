@@ -233,6 +233,9 @@ If you do not see `d2x-currentversion-vWii`, exit the installer with B, and make
     
 8. Repeat the previous 2 steps with the following configurations:
 
+<a name="test-point"></a>
+[A test point](#test-point)
+
 #### cIOS 249 (base 56)
     
 ```
