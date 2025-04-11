@@ -166,7 +166,7 @@ Select cIOS revision <65535>
 12. Once you have installed the cIOS into the 4 slots, press B to return to the Homebrew Channel.
 
 ::: info
-If you downloaded the 4 WAD files in [Section I](#section-i-downloading), you may now delete them from your SD card/USB drive.
+If you downloaded the 4 WAD files in [Downloading](#wii-downloading), you may now delete them from your SD card/USB drive.
 :::
 
 ::: tip
