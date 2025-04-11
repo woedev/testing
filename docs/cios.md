@@ -40,19 +40,18 @@ You can skip this section and proceed to the [Installation](#wii-installation) s
 If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.zip), and it will download the WAD files for you.
 :::
 
-1. Power off your console.
-2. Insert your SD card or USB drive into your computer.
-3. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
-4. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
-5. Run `NUS Downloader.exe`.
-6. Navigate to `Database` > `IOS` > `IOS38`, then select `v4123`.
+1. Insert your SD card or USB drive into your computer.
+2. On your computer, download [NUS Downloader](https://github.com/WiiDatabase/nusdownloader/releases/latest/download/NUSD-Mod-NUS-Fix.zip).
+3. Copy all files from the NUS Downloader `.zip` to a folder on your computer.
+4. Run `NUS Downloader.exe`.
+5. Navigate to `Database` > `IOS` > `IOS38`, then select `v4123`.
     + Ensure that "Pack WAD" is checked.
     + *Don't* check "Patch IOS". That is the cIOS Installer's job.
-7. Click `Start NUS Download!`.
-8. Repeat the above steps for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
-9. When the process is complete, there will be a folder named `titles` in the same folder as the NUS Downloader.
-10. Open the `titles` folder and navigate through them until you locate the four WAD files you downloaded.
-11. Place each WAD file on the root of your SD card or USB drive.
+6. Click `Start NUS Download!`.
+7. Repeat the above steps for `IOS56 v5661`, `IOS57 v5918` and `IOS58 v6175`.
+8. When the process is complete, there will be a folder named `titles` in the same folder as the NUS Downloader.
+9. Open the `titles` folder and navigate through them until you locate the four WAD files you downloaded.
+10. Place each WAD file on the root of your SD card or USB drive.
     + This must be the same device containing the d2x cIOS Installer.
 
 ::: info
@@ -302,15 +301,14 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 ## Installation {#wii-mini-installation}
 
-1. Power off your console.
-2. Insert your USB drive into your computer.
-3. Copy the `apps` folder from [d2xl-cios-installer-mini.zip](https://woedev.github.io/testing/assets/files/d2xl-cios-installer-mini.zip) to the root of your USB drive.
-4. Reinsert your USB drive into your console.
-5. Power on your console.
-6. Launch the Homebrew Channel.
-7. Launch d2xl cIOS Installer from the list of homebrew.
-8. Select `Continue`.
-9. Set the options to the following:
+1. Insert your USB drive into your computer.
+2. Copy the `apps` folder from [d2xl-cios-installer-mini.zip](https://woedev.github.io/testing/assets/files/d2xl-cios-installer-mini.zip) to the root of your USB drive.
+3. Reinsert your USB drive into your console.
+4. Power on your console.
+5. Launch the Homebrew Channel.
+6. Launch d2xl cIOS Installer from the list of homebrew.
+7. Select `Continue`.
+8. Set the options to the following:
 
 ##### cIOS 249 (base 57) {#wii-mini-cios249}
 
