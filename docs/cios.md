@@ -3,7 +3,46 @@ outline: false
 head: [
     ['link', {rel: 'stylesheet', href: 'https://woedev.github.io/testing/cios/cios.css'}],
     ['script', {src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js'}],
-    ['script', {src: '/testing/cios/d2xVersion.js'}]
+    ['script',
+    {},
+    'document.addEventListener("readystatechange", function () {
+        if (document.readyState === "interactive") {
+            const fallbackVersion = "d2x-v11-beta2";
+
+            function fetchLatestVersion() {
+                return fetch("https://api.github.com/repos/wiidev/d2x-cios/releases/latest")
+                    .then((response) => {
+                        if (!response.ok) throw new Error("Failed to fetch latest version");
+                        return response.json();
+                    })
+                    .then((data) => data.name || fallbackVersion)
+                    .catch(() => fallbackVersion);
+            }
+
+            function replaceVersion(version) {
+                const versionVWii = version + "-vWii";
+
+                document.body.querySelectorAll("*:not(script)").forEach((element) => {
+                    element.childNodes.forEach((node) => {
+                        if (node.nodeType === Node.TEXT_NODE) {
+                            node.nodeValue = node.nodeValue
+                                .replace(/d2x-currentversion-vWii/g, versionVWii)
+                                .replace(/d2x-currentversion/g, version);
+                        } else if (node.nodeType === Node.ELEMENT_NODE && node.nodeName === "A" && node.hasAttribute("href")) {
+                            const href = node.getAttribute("href");
+                            node.setAttribute(
+                                "href",
+                                href.replace(/d2x-currentversion-vWii/g, versionVWii).replace(/d2x-currentversion/g, version)
+                            );
+                        }
+                    });
+                });
+            }
+
+            fetchLatestVersion().then(replaceVersion);
+        }
+    });'
+    ]
 ]
 ---
 
