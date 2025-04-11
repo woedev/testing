@@ -26,10 +26,10 @@ $(function () {
 });
 
 function walkText(node, newVersion) {
-    if (node.nodeType == 3 || node.nodeType == 2) {
+    if (node.nodeType == 3) {
         node.data = node.data.replace(/d2x-currentversion/g, newVersion);
     }
-    if (node.nodeType == 1 && node.nodeName != "SCRIPT") {
+    if ((node.nodeType == 1 || node.nodeType == 2) && node.nodeName != "SCRIPT") {
         for (var i = 0; i < node.childNodes.length; i++) {
             walkText(node.childNodes[i], newVersion);
         }
