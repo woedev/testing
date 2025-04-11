@@ -32,7 +32,7 @@ If you're using an SD card, ensure that the lock switch is in the unlocked posit
 ## Downloading {#wii-downloading}
 
 ::: tip
-You can skip this section and proceed to [Installing](#installing) if your Wii has internet access.
+You can skip this section and proceed to [Installing](#wii-installing) if your Wii has internet access.
 :::
 
 ::: info
@@ -69,7 +69,7 @@ The WAD files should be on your SD card like this:
 5. Launch d2x cIOS Installer from the list of homebrew.
 6. Set everything to match the following:
 
-#### cIOS 248 (base 38) {#wii-cios248}
+##### cIOS 248 (base 38) {#wii-cios248}
 
 ```
 Select cIOS <d2x-currentversion>
@@ -115,13 +115,13 @@ If you are seeing `Slot ### already used in batch settings` or `cIOS already add
 ::: info
 If the slot is highlighted red, try to install the cIOS again.
 
-If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Section I](#downloading).
+If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Downloading](#wii-downloading).
 :::
 
 10. Press `A`. This will return you to the configuration screen.
 11. Repeat the previous 5 steps with the following configurations:
 
-#### cIOS 249 (base 56) {#wii-cios249}
+##### cIOS 249 (base 56) {#wii-cios249}
 
 ```
 Select cIOS <d2x-currentversion>
@@ -135,7 +135,7 @@ Select cIOS revision <65535>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
 </svg>
 
-#### cIOS 250 (base 57) {#wii-cios250}
+##### cIOS 250 (base 57) {#wii-cios250}
 
 ```
 Select cIOS <d2x-currentversion>
@@ -149,7 +149,7 @@ Select cIOS revision <65535>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
 </svg>
 
-#### cIOS 251 (base 58) {#wii-cios251}
+##### cIOS 251 (base 58) {#wii-cios251}
 
 ```
 Select cIOS <d2x-currentversion>
@@ -205,7 +205,7 @@ If you're using an SD card, ensure that the lock switch is in the unlocked posit
 5. Launch d2x cIOS Installer from the list of homebrew.
 6. Set everything to match the following:
 
-#### cIOS 248 (base 38) {#vwii-cios248}
+##### cIOS 248 (base 38) {#vwii-cios248}
 
 ```
 Select cIOS <d2x-currentversion-vWii>
@@ -231,7 +231,7 @@ If you do not see `d2x-currentversion-vWii`, exit the installer with B, and make
     
 8. Repeat the previous 2 steps with the following configurations:
 
-#### cIOS 249 (base 56) {#vwii-cios249}
+##### cIOS 249 (base 56) {#vwii-cios249}
     
 ```
 Select cIOS <d2x-currentversion-vWii>
@@ -244,7 +244,7 @@ Select cIOS slot <249>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion-vWii&gt;</text>
 </svg>
 
-#### cIOS 250 (base 57) {#vwii-cios250}
+##### cIOS 250 (base 57) {#vwii-cios250}
 
 ```
 Select cIOS <d2x-currentversion-vWii>
@@ -257,7 +257,7 @@ Select cIOS slot <250>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion-vWii&gt;</text>
 </svg>
 
-#### cIOS 251 (base 58) {#vwii-cios251}
+##### cIOS 251 (base 58) {#vwii-cios251}
 
 ```
 Select cIOS <d2x-currentversion-vWii>
@@ -293,13 +293,13 @@ This d2x cIOS installer was originally developed for the Wii U's vWii by DaveBao
 Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing so will likely [brick](bricks#ios-brick) your console.
 :::
 
-## Requirements {#mini-requirements}
+## Requirements {#wii-mini-requirements}
 
 * A Wii mini with the Homebrew Channel installed
 * A USB drive
 * The [d2xl cIOS Installer](/assets/files/d2xl-cios-installer-mini.zip)
 
-## Downloading {#mini-downloading}
+## Downloading {#wii-mini-downloading}
 
 1. Power off your console.
 2. Insert your USB drive into your computer.
@@ -309,12 +309,12 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 6. Launch the Homebrew Channel.
 7. Launch d2xl cIOS Installer from the list of homebrew.
 
-## Installing {#mini-installing}
+## Installing {#wii-mini-installing}
 
 8. Select `Continue`.
 9. Set the options to the following:
 
-#### cIOS 249 (base 57) {#mini-cios249}
+##### cIOS 249 (base 57) {#wii-mini-cios249}
 
 ```
 Select cIOS <d2xl-v1-beta2>
