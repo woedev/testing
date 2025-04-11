@@ -22,6 +22,12 @@ window.onload =  function () {
 $(function () {
     $.getJSON("https://api.github.com/repos/wiidev/d2x-cios/releases/latest").done(function (json) {
         walkText(document.body, json.name);
+
+        const collection = document.getElementsByTagName("a");
+        for (let i = 0; i < collection.length; i++) {
+            const node = collection[i].attributes[0];
+            node.nodeValue = node.nodeValue.replace(/d2x-currentversion/g, json.name);
+        }
     })
 });
 
@@ -29,7 +35,9 @@ function walkText(node, newVersion) {
     if (node.nodeType == 3) {
         node.data = node.data.replace(/d2x-currentversion/g, newVersion);
     }
-    if ((node.nodeType == 1 || node.nodeType == 2) && node.nodeName != "SCRIPT") {
+    if (node.nodeType == 2 && node.nodeName == "href")
+        node.data = node.data.replace(/d2x-currentversion/g, newVersion);
+    if (node.nodeType == 1 && node.nodeName != "SCRIPT") {
         for (var i = 0; i < node.childNodes.length; i++) {
             walkText(node.childNodes[i], newVersion);
         }
