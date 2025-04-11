@@ -31,7 +31,7 @@ function walkText(node, newVersion) {
     }
     if (node.nodeType == 1 && node.nodeName != "SCRIPT") {
         for (var i = 0; i < node.childNodes.length; i++) {
-            walkText(node.childNodes[i]);
+            walkText(node.childNodes[i], newVersion);
         }
     }
 }
