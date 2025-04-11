@@ -1,4 +1,5 @@
 ---
+outline: false
 head: [
     ['link', {rel: 'stylesheet', href: 'https://woedev.github.io/testing/cios/cios.css'}],
     ['script', {src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js'}],
@@ -148,7 +149,7 @@ Select cIOS revision <65535>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
 </svg>
 
-#### cIOS slot 251 (base 58)
+#### cIOS 251 (base 58)
 
 ```
 Select cIOS <d2x-currentversion>
