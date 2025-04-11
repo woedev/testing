@@ -1,5 +1,4 @@
 ---
-aside: false
 head: [
     ['link', {rel: 'stylesheet', href: 'https://woedev.github.io/testing/cios/cios.css'}],
     ['script', {src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js'}],
@@ -72,7 +71,7 @@ The WAD files should be on your SD card like this:
 5. Launch d2x cIOS Installer from the list of homebrew.
 6. Set everything to match the following:
 
-#### cIOS 248
+#### cIOS 248 (base 38)
 
 ```
 Select cIOS <d2x-currentversion>
@@ -121,7 +120,7 @@ If you are getting an error before/during the downloading stages (eg. `tcp_conne
 10. Press `A`. This will return you to the configuration screen.
 11. Repeat the previous 5 steps with the following configurations:
 
-#### cIOS 249
+#### cIOS 249 (base 56)
 
 ```
 Select cIOS <d2x-currentversion>
@@ -135,7 +134,7 @@ Select cIOS revision <65535>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
 </svg>
 
-#### cIOS 250
+#### cIOS 250 (base 57)
 
 ```
 Select cIOS <d2x-currentversion>
@@ -149,7 +148,7 @@ Select cIOS revision <65535>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">&lt;d2x-currentversion&gt;</text>
 </svg>
 
-#### cIOS 251
+#### cIOS slot 251 (base 58)
 
 ```
 Select cIOS <d2x-currentversion>
