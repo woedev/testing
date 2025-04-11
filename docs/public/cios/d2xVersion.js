@@ -12,10 +12,28 @@ $(function() {
 */
 
 
-
+/*
 window.onload =  function () {
     var code = document.documentElement.innerHTML;
     document.documentElement.innerHTML = code.replaceAll("d2x-currentversion", "d2x-v11-beta3");
+}
+*/
+
+$(function () {
+    $.getJSON("https://api.github.com/repos/wiidev/d2x-cios/releases/latest").done(function (json) {
+        walkText(document.body, json.name);
+    })
+});
+
+function walkText(node, newVersion) {
+    if (node.nodeType == 3) {
+        node.data = node.data.replace(/d2x-currentversion/g, newVersion);
+    }
+    if (node.nodeType == 1 && node.nodeName != "SCRIPT") {
+        for (var i = 0; i < node.childNodes.length; i++) {
+            walkText(node.childNodes[i]);
+        }
+    }
 }
 
 /*
