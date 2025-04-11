@@ -1,4 +1,4 @@
-window.onload = function () {
+$(function () {
     const fallbackVersion = "d2x-v11-beta2";
 
     function fetchLatestVersion() {
@@ -29,4 +29,4 @@ window.onload = function () {
     fetchLatestVersion().then((latestVersion) => {
         replaceVersion(latestVersion);
     });
-};
+});
