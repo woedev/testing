@@ -179,20 +179,14 @@ Now that your Wii has adequate brick protection, you can install the Open Shop C
 :::
 
 ::::
-
 :::: tab cIOS for vWii (Wii U)
 
-
 ::: details Technical Details (optional)
-
 cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
-
 :::
 
 ::: danger
-
 Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing so will likely [brick](bricks#ios-brick) your console.
-
 :::
 
 ## Requirements
@@ -284,33 +278,24 @@ Select cIOS slot <251>
 9. Once you have installed the cIOS into the 4 slots, press B to return to the Homebrew Channel.
 
 ::: tip
-
 [Continue to finalizing setup](vwii-finalizing-setup)
-
 :::
 
 ::::
-
 :::: tab cIOS for Wii mini
 
 ::: info
-
 If you need help with anything regarding this tutorial, please join [the Wii mini Hacking Discord server](https://discord.gg/6ryxnkS) (recommended)
-
 :::
 
 ::: details Technical Details (optional)
-
 cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 
 This d2x cIOS installer was originally developed for the Wii U's vWii by DaveBaol and custom cIOS was created by Leseratte for the Wii mini. The original download page can be found [here](https://wii.leseratte10.de/d2xl-cIOS/). Leseratte's GitHub page can be found [here](https://github.com/Leseratte10/d2xl-cios). Please note that this cIOS is still experimental, though no problem with functionality has been reported.
-
 :::
 
 ::: danger
-
 Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing so will likely [brick](bricks#ios-brick) your console.
-
 :::
 
 ## Requirements
@@ -324,41 +309,37 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 ### Section I - Downloading
 
 1. Power off your console.
-1. Insert your USB drive into your computer.
-1. Copy the `apps` folder from the d2xl-cios-installer-mini `.zip` to the root of your USB drive.
-1. Reinsert your USB drive into your console.
-1. Power on your console.
-1. Launch the Homebrew Channel.
-1. Launch d2xl cIOS Installer from the list of homebrew.
+2. Insert your USB drive into your computer.
+3. Copy the `apps` folder from the d2xl-cios-installer-mini `.zip` to the root of your USB drive.
+4. Reinsert your USB drive into your console.
+5. Power on your console.
+6. Launch the Homebrew Channel.
+7. Launch d2xl cIOS Installer from the list of homebrew.
 
 ### Section II - Installing
 
-1. Select `Continue`.
-1. Set the options to the following:
-    ```
-    Select cIOS <d2xl-v1-beta2>
-    Select cIOS base <57>
-    Select cIOS slot <249>
-    ```
+8. Select `Continue`.
+9. Set the options to the following:
+```
+Select cIOS <d2xl-v1-beta2>
+Select cIOS base <57>
+Select cIOS slot <249>
+```
 
-    ![](/images/cios/d2x_v1_249_mini_NTSC.png)
-    ![](/images/cios/d2x_v1_249_mini_PAL.png)
+![](/images/cios/d2x_v1_249_mini_NTSC.png)
+![](/images/cios/d2x_v1_249_mini_PAL.png)
    
-    + Under notes, you will see an IOS version number ending in either `v31775` or `v31776`. `IOS57-64-v31775` is for NTSC (North American) consoles, while `IOS57-64-v31776` is for PAL (European) consoles. Make sure you are selecting the correct version number for your console.
-1. Press A to install.
-    + If the install fails with a `TMD version mismatch` error, press left or right on the +Control Pad over the `Select cIOS base` option until the version number is different than the one you tried before. The number 57 will not change.
-1. When the process is complete, exit the installer.
++ Under notes, you will see an IOS version number ending in either `v31775` or `v31776`. `IOS57-64-v31775` is for NTSC (North American) consoles, while `IOS57-64-v31776` is for PAL (European) consoles. Make sure you are selecting the correct version number for your console.
+10. Press A to install.
+    + If the install fails with a `TMD version mismatch` error, press left or right on the directional pad over the `Select cIOS base` option until the version number is different than the one you tried before. The number 57 will not change.
+11. When the process is complete, exit the installer.
 
 ::: tip
-
 [Continue to finalizing setup](mini-finalizing-setup)
-
 :::
 
 ::: tip
-
 [Click here to go back to the site index.](site-navigation)
-
 :::
 
 ::::
