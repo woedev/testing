@@ -310,7 +310,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 1. Power off your console.
 2. Insert your USB drive into your computer.
-3. Copy the `apps` folder from the d2xl-cios-installer-mini `.zip` to the root of your USB drive.
+3. Copy the `apps` folder from [d2xl-cios-installer-mini.zip](https://woedev.github.io/testing/assets/files/d2xl-cios-installer-mini.zip) to the root of your USB drive.
 4. Reinsert your USB drive into your console.
 5. Power on your console.
 6. Launch the Homebrew Channel.
@@ -328,10 +328,17 @@ Select cIOS slot <249>
 
 ![](/images/cios/d2x_v1_249_mini_NTSC.png)
 ![](/images/cios/d2x_v1_249_mini_PAL.png)
-   
-+ Under notes, you will see an IOS version number ending in either `v31775` or `v31776`. `IOS57-64-v31775` is for NTSC (North American) consoles, while `IOS57-64-v31776` is for PAL (European) consoles. Make sure you are selecting the correct version number for your console.
+
+::: info
+Under notes, you will see an IOS version number ending in either `v31775` or `v31776`. `IOS57-64-v31775` is for NTSC (North American) consoles, while `IOS57-64-v31776` is for PAL (European) consoles. Make sure you are selecting the correct version number for your console.
+:::
+
 10. Press A to install.
-    + If the install fails with a `TMD version mismatch` error, press left or right on the directional pad over the `Select cIOS base` option until the version number is different than the one you tried before. The number 57 will not change.
+
+::: info
+If the install fails with a `TMD version mismatch` error, press left or right on the directional pad over the `Select cIOS base` option until the version number is different than the one you tried before. The number 57 will not change.
+:::
+
 11. When the process is complete, exit the installer.
 
 ::: tip
