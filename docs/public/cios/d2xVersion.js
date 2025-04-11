@@ -37,11 +37,13 @@ function walkText(node, newVersion) {
     }
 //    if (node.nodeType == 2 && node.nodeName == "href")
 //        node.data = node.data.replace(/d2x-currentversion/g, newVersion);
+/*
     if (node.nodeType == 1 && node.nodeName != "SCRIPT") {
         for (var i = 0; i < node.childNodes.length; i++) {
             walkText(node.childNodes[i], newVersion);
         }
     }
+*/
 }
 
 /*
