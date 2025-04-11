@@ -84,7 +84,7 @@ Select cIOS revision <65535>
 </svg>
 
 ::: info
-If you do not see `d2x-currentversion`, press `B` to exit the installer, and then make sure your SD card is unlocked.
+If you're unable to select `d2x-currentversion`, press `B` to exit the installer. Next, eject your SD card and make sure the lock switch is in the unlocked position.
 :::
 
 ::: info
@@ -93,8 +93,6 @@ The warning `(c)IOS detected in slot ### will be overwritten` can be safely igno
 
 ::: info
 If you are seeing `Slot ### already used in batch settings` or `cIOS already added in batch with revision ##### and slot ###`, press `-` to disable batch mode.
-
-(If you are trying to exit the installer, the button is B, not Home.)
 :::
     
 7. Press `A`. This will bring you to the slot map:
@@ -115,7 +113,7 @@ If you are seeing `Slot ### already used in batch settings` or `cIOS already add
 ::: info
 If the slot is highlighted red, try to install the cIOS again.
 
-If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from the [IOS Downloads](#wii-downloads) section.
+If you are getting an error before/during the downloading stages (e.g., `tcp_connect timeout`, `net_gethostbyname failed: ...`), press `B` to exit and continue from the [IOS Downloads](#wii-downloads) section.
 :::
 
 10. Press `A`. This will return you to the configuration screen.
