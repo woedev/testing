@@ -8,7 +8,6 @@ window.onload = async function () {
             const data = await response.json();
             return data.name || fallbackVersion;
         } catch {
-            console.warn("Using a known good version due to API failure.");
             return fallbackVersion;
         }
     }
@@ -20,8 +19,8 @@ window.onload = async function () {
             {
                 acceptNode: (node) => {
                     if (node.nodeName === "SCRIPT") return NodeFilter.FILTER_SKIP;
-                    if (node.nodeType === Node.TEXT_NODE && node.nodeValue.includes("d2x-currentversion")) return NodeFilter.FILTER_ACCEPT;
-                    if (node.nodeType === Node.ELEMENT_NODE && node.nodeName === "A" && node.getAttribute("href")?.includes("d2x-currentversion")) return NodeFilter.FILTER_ACCEPT;
+                    if (node.nodeType === Node.TEXT_NODE && (node.nodeValue.includes("d2x-currentversion-vWii") || node.nodeValue.includes("d2x-currentversion"))) return NodeFilter.FILTER_ACCEPT;
+                    if (node.nodeType === Node.ELEMENT_NODE && node.nodeName === "A" && (node.getAttribute("href")?.includes("d2x-currentversion-vWii") || node.getAttribute("href")?.includes("d2x-currentversion"))) return NodeFilter.FILTER_ACCEPT;
                     return NodeFilter.FILTER_SKIP;
                 }
             }
@@ -30,9 +29,16 @@ window.onload = async function () {
         let currentNode;
         while ((currentNode = treeWalker.nextNode())) {
             if (currentNode.nodeType === Node.TEXT_NODE) {
-                currentNode.nodeValue = currentNode.nodeValue.replace(/d2x-currentversion/g, version);
+                currentNode.nodeValue = currentNode.nodeValue
+                    .replace(/d2x-currentversion-vWii/g, version + "-vWii")
+                    .replace(/d2x-currentversion/g, version);
             } else if (currentNode.nodeType === Node.ELEMENT_NODE) {
-                currentNode.setAttribute("href", currentNode.getAttribute("href").replace(/d2x-currentversion/g, version));
+                currentNode.setAttribute(
+                    "href",
+                    currentNode.getAttribute("href")
+                        .replace(/d2x-currentversion-vWii/g, version + "-vWii")
+                        .replace(/d2x-currentversion/g, version)
+                );
             }
         }
     }
