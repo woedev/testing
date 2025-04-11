@@ -1,4 +1,5 @@
 ---
+outline: false
 head: [
     ['link', {rel: 'stylesheet', href: 'https://woedev.github.io/testing/cios/cios.css'}],
     ['script', {src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js'}],
@@ -115,7 +116,7 @@ If you are seeing `Slot ### already used in batch settings` or `cIOS already add
 ::: info
 If the slot is highlighted red, try to install the cIOS again.
 
-If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from [Downloading](#wii-downloading).
+If you are getting an error before/during the downloading stages (eg. `tcp_connect timeout`, `net_gethostbyname failed: ...`), press B to exit and continue from the [IOS Downloads](#wii-downloads) section.
 :::
 
 10. Press `A`. This will return you to the configuration screen.
