@@ -29,10 +29,10 @@ Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing s
 If you're using an SD card, ensure that the lock switch is in the unlocked position, otherwise you'll be unable to select the correct options in the installer.
 :::
 
-## Downloading {#wii-downloading}
+## IOS Downloads {#wii-downloads}
 
 ::: tip
-You can skip this section and proceed to the [Installing section](#wii-installing) if your Wii has internet access.
+You can skip this section and proceed to the [Installation](#wii-installation) section if your Wii has internet access.
 :::
 
 ::: info
@@ -60,7 +60,7 @@ The WAD files should be on your SD card like this:
 ![](/images/cios/d2x_offline_ios.png)
 :::
 
-## Installing {#wii-installing}
+## Installation {#wii-installation}
 
 1. Copy the `apps` folder from [d2x-currentversion.zip](https://github.com/wiidev/d2x-cios/releases/download/d2x-currentversion/d2x-currentversion.zip) to the root of your SD card or USB drive.
 2. Reinsert your SD card or USB drive into your console.
@@ -166,7 +166,7 @@ Select cIOS revision <65535>
 12. Once you have installed the cIOS into the 4 slots, press B to return to the Homebrew Channel.
 
 ::: info
-If you downloaded the 4 WAD files for an [offline install](#wii-downloading), you may now delete them from your SD card/USB drive.
+If you downloaded the 4 WAD files in the [IOS Downloads](#wii-downloads) section, you may now delete them from your SD card/USB drive.
 :::
 
 ::: tip
@@ -196,7 +196,7 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 If you're using an SD card, ensure that the lock switch is in the unlocked position, otherwise you'll be unable to select the correct options in the installer.
 :::
 
-## Installing {#vwii-installing}
+## Installation {#vwii-installation}
 
 1. Copy the `apps` folder from [d2x-currentversion-vWii.zip](https://github.com/wiidev/d2x-cios/releases/download/d2x-currentversion/d2x-currentversion-vWii.zip) to the root of your SD card or USB drive.
 2. Reinsert your SD card or USB drive into your console.
@@ -299,7 +299,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 * A USB drive
 * The [d2xl cIOS Installer](/assets/files/d2xl-cios-installer-mini.zip)
 
-## Downloading {#wii-mini-downloading}
+## Installation {#wii-mini-installation}
 
 1. Power off your console.
 2. Insert your USB drive into your computer.
@@ -308,9 +308,6 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 5. Power on your console.
 6. Launch the Homebrew Channel.
 7. Launch d2xl cIOS Installer from the list of homebrew.
-
-## Installing {#wii-mini-installing}
-
 8. Select `Continue`.
 9. Set the options to the following:
 
