@@ -37,7 +37,7 @@ You can skip this section and proceed to the [Installation](#wii-installation) s
 :::
 
 ::: info
-If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.zip), and it will download the WAD files for you.
+If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.zip), which will then download the WAD files for you.
 :::
 
 1. Insert your SD card or USB drive into your computer.
@@ -84,7 +84,7 @@ Select cIOS revision <65535>
 </svg>
 
 ::: info
-If you do not see `d2x-currentversion`, exit the installer with B, and make sure your SD card is unlocked.
+If you do not see `d2x-currentversion`, press `B` to exit the installer, and then make sure your SD card is unlocked.
 :::
 
 ::: info
@@ -219,7 +219,7 @@ Select cIOS slot <248>
 </svg>
 
 ::: info
-If you do not see `d2x-currentversion-vWii`, exit the installer with B, and make sure your SD card is unlocked.
+If you do not see `d2x-currentversion-vWii`, press `B` to exit the installer, and then make sure your SD card is unlocked.
 :::
 
 7. Press `A` to install.
