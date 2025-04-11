@@ -106,7 +106,10 @@ If you are seeing `Slot ### already used in batch settings` or `cIOS already add
     
 8. Press `A` again.
 
-![](/images/cios/d2x_installation.png)
+<svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+    <image width="640" height="480" href="/images/cios/d2x_installation.png" />
+    <text x="16" y="389" fill="#D3D3D3" font-size="16px" font-family="DOSVGA">Installing d2x-currentversion base 38 rev65535 into slot 248 (1/1)...</text>
+</svg>
     
 9. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
 
