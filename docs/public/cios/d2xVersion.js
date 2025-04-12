@@ -1,7 +1,4 @@
-
-
-
-
+/*
 document.addEventListener("DOMContentLoaded", async function () {
     const fallbackVersion = "d2x-v11-beta2";
 
@@ -50,7 +47,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     const latestVersion = await fetchLatestVersion();
     replaceVersion(latestVersion);
 });
-
+*/
 
 /*
 document.addEventListener("DOMContentLoaded", function () {
@@ -109,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 */
 
-/*
+
 (function () {
     const fallbackVersion = "d2x-v11-beta2";
 
@@ -175,4 +172,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
     observer.observe(document.body, { childList: true, subtree: true });
 })();
-*/
