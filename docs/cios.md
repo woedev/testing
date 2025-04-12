@@ -1,7 +1,7 @@
 ---
 outline: false
 head: [
-    ['link', {rel: 'stylesheet', href: 'https://woedev.github.io/testing/cios/cios.css'}],
+    ['link', {rel: 'stylesheet', href: '/testing/cios/cios.css'}],
     ['script', {src: '/testing/cios/d2xVersion.js'}]
 ]
 ---
