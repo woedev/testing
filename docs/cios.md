@@ -1,8 +1,7 @@
 ---
 outline: false
 head: [
-    ['link', {rel: 'stylesheet', href: '/testing/cios/cios.css'}],
-    ['script', {src: '/testing/cios/d2xVersion.js'}]
+    ['link', {rel: 'stylesheet', href: '/testing/cios/cios.css'}]
 ]
 ---
 
