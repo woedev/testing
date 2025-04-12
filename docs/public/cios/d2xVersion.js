@@ -1,5 +1,5 @@
 
-/*
+
 $(function () {
     $.getJSON("https://api.github.com/repos/wiidev/d2x-cios/releases/latest").done(function (json) {
         walkText(document.body, json.name);
@@ -31,7 +31,7 @@ function walkText(node, newVersion) {
         }
     }
 }
-*/
+
 
 /*
 $(function () {
@@ -347,7 +347,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 });
 */
 
-
+/*
 document.addEventListener("DOMContentLoaded", async function () {
     const fallbackVersion = "d2x-v11-beta2";
 
@@ -394,6 +394,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     const latestVersion = await fetchLatestVersion();
     replaceVersion(latestVersion);
 });
+*/
 
 
 /*
