@@ -2,7 +2,7 @@
 outline: false
 head: [
     ['link', {rel: 'stylesheet', href: '/testing/cios/cios.css'}],
-    ['link', {rel: 'prefetch', href: '/testing/cios/d2xVersion.js'}]
+    ['link', {rel: 'prefetch', as: 'script', href: '/testing/cios/d2xVersion.js'}]
 ]
 ---
 
