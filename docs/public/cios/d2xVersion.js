@@ -49,6 +49,8 @@ document.addEventListener("DOMContentLoaded", async function () {
 });
 */
 
+console.log("d2xVersion.js loaded");
+
 
 document.addEventListener("DOMContentLoaded", function () {
     const fallbackVersion = "d2x-v11-beta2";
