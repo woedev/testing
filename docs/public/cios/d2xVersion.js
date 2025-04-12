@@ -1,4 +1,3 @@
-/*
 document.addEventListener("DOMContentLoaded", async function () {
     const fallbackVersion = "d2x-v11-beta2";
 
@@ -47,8 +46,8 @@ document.addEventListener("DOMContentLoaded", async function () {
     const latestVersion = await fetchLatestVersion();
     replaceVersion(latestVersion);
 });
-*/
 
+/*
 (function () {
     const fallbackVersion = "d2x-v11-beta2";
 
@@ -114,3 +113,4 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     observer.observe(document.body, { childList: true, subtree: true });
 })();
+*/
