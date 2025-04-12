@@ -1,9 +1,10 @@
-window.onload = async function () {
+document.addEventListener("DOMContentLoaded", async function () {
     const fallbackVersion = "d2x-v11-beta2";
 
     async function fetchLatestVersion() {
         try {
             const response = await fetch("https://api.github.com/repos/wiidev/d2x-cios/releases/latest");
+            console.log("Got this far (fetchLatestVersion)");
             if (!response.ok) throw new Error("API request failed");
             const data = await response.json();
             return data.name || fallbackVersion;
@@ -13,6 +14,7 @@ window.onload = async function () {
     }
 
     function replaceVersion(version) {
+        console.log("Got this far (replaceVersion)");
         const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT | NodeFilter.SHOW_ELEMENT, {
             acceptNode: (node) => {
                 if (node.nodeType === Node.TEXT_NODE && (node.nodeValue.includes("d2x-currentversion-vWii") || node.nodeValue.includes("d2x-currentversion"))) {
@@ -43,4 +45,4 @@ window.onload = async function () {
 
     const latestVersion = await fetchLatestVersion();
     replaceVersion(latestVersion);
-};
+});
