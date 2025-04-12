@@ -347,7 +347,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 });
 */
 
-/*
+
 document.addEventListener("DOMContentLoaded", async function () {
     const fallbackVersion = "d2x-v11-beta2";
 
@@ -394,8 +394,9 @@ document.addEventListener("DOMContentLoaded", async function () {
     const latestVersion = await fetchLatestVersion();
     replaceVersion(latestVersion);
 });
-*/
 
+
+/*
 document.addEventListener("DOMContentLoaded", async function () {
     const fallbackVersion = "d2x-v11-beta2";
 
@@ -444,3 +445,4 @@ document.addEventListener("DOMContentLoaded", async function () {
     const latestVersion = await fetchLatestVersion();
     replaceVersion(latestVersion);
 });
+*/
