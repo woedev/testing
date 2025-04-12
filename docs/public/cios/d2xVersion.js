@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", async function () {
+window.onload = async function () {
     const fallbackVersion = "d2x-v11-beta2";
 
     async function fetchLatestVersion() {
@@ -43,4 +43,4 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     const latestVersion = await fetchLatestVersion();
     replaceVersion(latestVersion);
-});
+};
