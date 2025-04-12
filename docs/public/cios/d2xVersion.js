@@ -1,4 +1,3 @@
-/*
 document.addEventListener("DOMContentLoaded", async function () {
     const fallbackVersion = "d2x-v11-beta2";
 
@@ -44,60 +43,4 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     const latestVersion = await fetchLatestVersion();
     replaceVersion(latestVersion);
-});
-*/
-
-document.addEventListener("DOMContentLoaded", function () {
-    const fallbackVersion = "d2x-v11-beta2";
-
-    function fetchLatestVersion() {
-        return fetch("https://api.github.com/repos/wiidev/d2x-cios/releases/latest")
-            .then((response) => {
-                if (!response.ok) throw new Error("Failed to fetch latest version");
-                return response.json();
-            })
-            .then((data) => data.name || fallbackVersion)
-            .catch(() => fallbackVersion);
-    }
-
-    function replaceVersionInNode(node, version, versionVWii) {
-        if (node.nodeType === Node.TEXT_NODE) {
-            node.nodeValue = node.nodeValue
-                .replace(/d2x-currentversion-vWii/g, versionVWii)
-                .replace(/d2x-currentversion/g, version);
-        } else if (node.nodeType === Node.ELEMENT_NODE && node.nodeName === "A" && node.hasAttribute("href")) {
-            const href = node.getAttribute("href");
-            node.setAttribute(
-                "href",
-                href.replace(/d2x-currentversion-vWii/g, versionVWii).replace(/d2x-currentversion/g, version)
-            );
-        }
-    }
-
-    function replaceVersion(version) {
-        const versionVWii = version + "-vWii";
-
-        // Traverse all existing elements
-        document.body.querySelectorAll("*:not(script)").forEach((element) => {
-            element.childNodes.forEach((node) => replaceVersionInNode(node, version, versionVWii));
-        });
-
-        // Observe future changes to the DOM
-        const observer = new MutationObserver((mutations) => {
-            mutations.forEach((mutation) => {
-                mutation.addedNodes.forEach((node) => {
-                    if (node.nodeType === Node.ELEMENT_NODE) {
-                        node.querySelectorAll("*:not(script)").forEach((child) => {
-                            child.childNodes.forEach((childNode) => replaceVersionInNode(childNode, version, versionVWii));
-                        });
-                    }
-                    replaceVersionInNode(node, version, versionVWii);
-                });
-            });
-        });
-
-        observer.observe(document.body, { childList: true, subtree: true });
-    }
-
-    fetchLatestVersion().then(replaceVersion);
 });
