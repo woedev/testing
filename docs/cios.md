@@ -8,20 +8,20 @@ head: [
 
 # cIOS
 
+<noscript>
+
+::: danger
+**Please enable JavaScript so that the d2x cIOS version can automatically be retrieved.**
+:::
+
+</noscript>
+
 ::::: tabs
 :::: tab cIOS for Wii/Family Edition
 
 ::: details Technical Details (optional)
 cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
 :::
-
-<noscript>
-
-::: danger
-Please enable JavaScript so that the d2x cIOS version can automatically be retrieved.
-:::
-
-</noscript>
 
 ::: danger
 Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing so will likely [brick](bricks#ios-brick) your console.
