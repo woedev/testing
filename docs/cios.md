@@ -87,7 +87,7 @@ Select cIOS revision <65535>
 
 <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
     <image width="640" height="480" href="/images/cios/d2x_v11_248.png" />
-    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, sans-serif">&lt;d2x-currentversion&gt;</text>
+    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-currentversion&gt;</text>
 </svg>
 
 ::: info
@@ -110,7 +110,7 @@ If you are seeing `Slot ### already used in batch settings` or `cIOS already add
 
 <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
     <image width="640" height="480" href="/images/cios/d2x_installation.png" />
-    <text x="16" y="389" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, sans-serif">Installing d2x-currentversion base 38 rev65535 into slot 248 (1/1)...</text>
+    <text x="16" y="389" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">Installing d2x-currentversion base 38 rev65535 into slot 248 (1/1)...</text>
 </svg>
     
 9. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
@@ -137,7 +137,7 @@ Select cIOS revision <65535>
 
 <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
     <image width="640" height="480" href="/images/cios/d2x_v11_249.png" />
-    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, sans-serif">&lt;d2x-currentversion&gt;</text>
+    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-currentversion&gt;</text>
 </svg>
 
 ##### cIOS 250 (base 57) {#wii-cios250}
@@ -151,7 +151,7 @@ Select cIOS revision <65535>
 
 <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
     <image width="640" height="480" href="/images/cios/d2x_v11_250.png" />
-    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, sans-serif">&lt;d2x-currentversion&gt;</text>
+    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-currentversion&gt;</text>
 </svg>
 
 ##### cIOS 251 (base 58) {#wii-cios251}
@@ -165,7 +165,7 @@ Select cIOS revision <65535>
 
 <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
     <image width="640" height="480" href="/images/cios/d2x_v11_251.png" />
-    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, sans-serif">&lt;d2x-currentversion&gt;</text>
+    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-currentversion&gt;</text>
 </svg>
 
 12. Once you have installed the cIOS into the 4 slots, press `B` to return to the Homebrew Channel.
@@ -220,7 +220,7 @@ Select cIOS slot <248>
 
 <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
     <image width="640" height="480" href="/images/cios/d2x_v11_248_vwii.png" />
-    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, sans-serif">&lt;d2x-currentversion-vWii&gt;</text>
+    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-currentversion-vWii&gt;</text>
 </svg>
 
 ::: info
@@ -231,7 +231,7 @@ If you do not see `d2x-currentversion-vWii`, press `B` to exit the installer, an
 
 <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
     <image width="640" height="480" href="/images/cios/d2x_installation.png" />
-    <text x="16" y="389" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, sans-serif">Installing d2x-currentversion-vWii base 38 rev21011 into slot 248 (1/1)...</text>
+    <text x="16" y="389" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">Installing d2x-currentversion-vWii base 38 rev21011 into slot 248 (1/1)...</text>
 </svg>
     
 8. Repeat the previous 2 steps with the following configurations:
@@ -246,7 +246,7 @@ Select cIOS slot <249>
 
 <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
     <image width="640" height="480" href="/images/cios/d2x_v11_249_vwii.png" />
-    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, sans-serif">&lt;d2x-currentversion-vWii&gt;</text>
+    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-currentversion-vWii&gt;</text>
 </svg>
 
 ##### cIOS 250 (base 57) {#vwii-cios250}
@@ -259,7 +259,7 @@ Select cIOS slot <250>
 
 <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
     <image width="640" height="480" href="/images/cios/d2x_v11_250_vwii.png" />
-    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, sans-serif">&lt;d2x-currentversion-vWii&gt;</text>
+    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-currentversion-vWii&gt;</text>
 </svg>
 
 ##### cIOS 251 (base 58) {#vwii-cios251}
@@ -272,7 +272,7 @@ Select cIOS slot <251>
 
 <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
     <image width="640" height="480" href="/images/cios/d2x_v11_251_vwii.png" />
-    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, sans-serif">&lt;d2x-currentversion-vWii&gt;</text>
+    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-currentversion-vWii&gt;</text>
 </svg>
 
 9. Once you have installed the cIOS into the 4 slots, press `B` to return to the Homebrew Channel.
