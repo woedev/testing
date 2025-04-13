@@ -29,7 +29,7 @@ Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing s
 
 ## Requirements {#wii-requirements}
 
-<div id="ks-enabled">
+<div id="js-enabled">
 
 * A Wii with the Homebrew Channel installed
 * An SD card or USB drive
