@@ -55,7 +55,10 @@ console.log("d2xVersion.js loaded");
 document.addEventListener("DOMContentLoaded", function () {
     const fallbackVersion = "d2x-v11-beta2";
 
+    console.log("Added DOMContentLoaded event listener");
+
     function fetchLatestVersion() {
+        console.log("Fetching latest version from GitHub API");
         return fetch("https://api.github.com/repos/wiidev/d2x-cios/releases/latest")
             .then((response) => {
                 if (!response.ok) throw new Error("Failed to fetch latest version");
@@ -66,6 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function replaceVersionInNode(node, version, versionVWii) {
+        console.log("Replacing version in node");
         if (node.nodeType === Node.TEXT_NODE) {
             node.nodeValue = node.nodeValue
                 .replace(/d2x-currentversion-vWii/g, versionVWii)
@@ -80,6 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function replaceVersion(version) {
+        console.log("Replacing version in document");
         const versionVWii = version + "-vWii";
 
         // Traverse all existing elements
