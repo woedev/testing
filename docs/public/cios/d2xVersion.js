@@ -1,6 +1,6 @@
 (async function () {
     async function fetchLatestVersion() {
-        const FALLBACK_VERSION = "d2x-v11-beta2";
+        const FALLBACK_VERSION = "d2x-v11-beta2"; // Edit the version when necessary
         const VERSION_REGEX = /^d2x-v\d+-[a-zA-Z0-9]+$/;
         try {
             const response = await fetch("https://api.github.com/repos/wiidev/d2x-cios/releases");
@@ -9,14 +9,11 @@
 
             const latestRelease = releases.find(release => !release.prerelease && VERSION_REGEX.test(release.name));
             if (latestRelease) {
-                console.log("Latest valid version found:", latestRelease.name);
                 return latestRelease.name;
             } else {
-                console.warn("No valid non-prerelease version found. Falling back to default.");
                 return FALLBACK_VERSION;
             }
         } catch (error) {
-            console.error("Failed to fetch the latest version:", error);
             return FALLBACK_VERSION;
         }
     }
