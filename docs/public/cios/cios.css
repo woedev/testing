@@ -32,9 +32,6 @@ canvas[id^="d2x_"] {
 	margin: 16px 0;
 }
 
-#cios-installer {
-    display: block;
-}
-noscript + #cios-installer {
+.js-enabled {
     display: none;
 }
