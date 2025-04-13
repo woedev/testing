@@ -32,6 +32,6 @@ canvas[id^="d2x_"] {
 	margin: 16px 0;
 }
 
-.js-enabled {
+#js-enabled {
     display: none;
 }

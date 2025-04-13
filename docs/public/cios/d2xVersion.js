@@ -52,5 +52,5 @@
 
     const latestVersion = await fetchLatestVersion();
     replaceVersion(latestVersion);
-    document.querySelectorAll(".js-enabled").forEach(el => el.style.display = "block");
+    document.querySelectorAll("#js-enabled").forEach(el => el.style.display = "block");
 })();
