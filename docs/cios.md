@@ -11,7 +11,7 @@ head: [
 <noscript>
 
 ::: danger
-**Please enable JavaScript so that the d2x cIOS version can automatically be retrieved.**
+**Please enable JavaScript so that the d2x cIOS version can be retrieved.**
 :::
 
 </noscript>
