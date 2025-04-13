@@ -17,8 +17,9 @@ cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While 
 
 <noscript>
 
-> [!WARNING]
-> Please enable JavaScript so that the d2x cIOS version can automatically be retrieved.
+::: danger
+Please enable JavaScript so that the d2x cIOS version can automatically be retrieved.
+:::
 
 </noscript>
 
