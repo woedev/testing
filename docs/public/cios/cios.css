@@ -24,14 +24,14 @@ canvas[id^="d2x_"] {
     user-select: none;
 }
 
+#js-enabled {
+    display: none;
+}
+
 .tab-container .tab {
     padding: .5rem 1.4rem;
 }
 
 .vp-doc div[class*=language-], .vp-block {
 	margin: 16px 0;
-}
-
-#js-enabled {
-    display: none;
 }

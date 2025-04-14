@@ -21,10 +21,10 @@
     function replaceVersion(version) {
         const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT | NodeFilter.SHOW_ELEMENT, {
             acceptNode: (node) => {
-                if (node.nodeType === Node.TEXT_NODE && node.nodeValue.includes("d2x-currentversion")) {
+                if (node.nodeType === Node.TEXT_NODE && node.nodeValue.includes("d2x-v1-demo")) {
                     return NodeFilter.FILTER_ACCEPT;
                 }
-                if (node.nodeType === Node.ELEMENT_NODE && node.nodeName === "A" && node.getAttribute("href")?.includes("d2x-currentversion")) {
+                if (node.nodeType === Node.ELEMENT_NODE && node.nodeName === "A" && node.getAttribute("href")?.includes("d2x-v1-demo")) {
                     return NodeFilter.FILTER_ACCEPT;
                 }
                 return NodeFilter.FILTER_SKIP;
@@ -35,15 +35,15 @@
         while ((currentNode = walker.nextNode())) {
             if (currentNode.nodeType === Node.TEXT_NODE) {
                 currentNode.nodeValue = currentNode.nodeValue
-                    .replace(/d2x-currentversion-vWii/g, `${version}-vWii`)
-                    .replace(/d2x-currentversion/g, version);
+                    .replace(/d2x-v1-demo-vWii/g, `${version}-vWii`)
+                    .replace(/d2x-v1-demo/g, version);
             } else if (currentNode.nodeName === "A") {
                 const href = currentNode.getAttribute("href");
                 if (href) {
                     currentNode.setAttribute(
                         "href",
-                        href.replace(/d2x-currentversion-vWii/g, `${version}-vWii`)
-                            .replace(/d2x-currentversion/g, version)
+                        href.replace(/d2x-v1-demo-vWii/g, `${version}-vWii`)
+                            .replace(/d2x-v1-demo/g, version)
                     );
                 }
             }
