@@ -86,11 +86,7 @@ The WAD files should be on your SD card like this:
 5. Launch d2x cIOS Installer from the list of homebrew.
 6. Change the settings to the following:
 
-<div id="hide-aside-entry">
-
 ##### cIOS 248 (base 38) {#wii-cios248}
-
-</div>
 
 ```
 Select cIOS <d2x-v1-demo>
@@ -143,11 +139,7 @@ If you are getting an error before/during the downloading stages (e.g., `tcp_con
 10. Press `A`. This will return you to the configuration screen.
 11. Repeat the previous 5 steps with the following configurations:
 
-<div id="hide-aside-entry">
-
 ##### cIOS 249 (base 56) {#wii-cios249}
-
-</div>
 
 ```
 Select cIOS <d2x-v1-demo>
@@ -160,11 +152,8 @@ Select cIOS revision <65535>
     <image width="640" height="480" href="/images/cios/d2x_v11_249.png" />
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo&gt;</text>
 </svg>
-<div id="hide-aside-entry">
 
 ##### cIOS 250 (base 57) {#wii-cios250}
-
-</div>
 
 ```
 Select cIOS <d2x-v1-demo>
@@ -177,11 +166,8 @@ Select cIOS revision <65535>
     <image width="640" height="480" href="/images/cios/d2x_v11_250.png" />
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo&gt;</text>
 </svg>
-<div id="hide-aside-entry">
 
 ##### cIOS 251 (base 58) {#wii-cios251}
-
-</div>
 
 ```
 Select cIOS <d2x-v1-demo>
@@ -248,11 +234,7 @@ If you're using an SD card, ensure the lock switch is in the unlocked position, 
 5. Launch d2x cIOS Installer from the list of homebrew.
 6. Change the settings to the following:
 
-<div id="hide-aside-entry">
-
 ##### cIOS 248 (base 38) {#vwii-cios248}
-
-</div>
 
 ```
 Select cIOS <d2x-v1-demo-vWii>
@@ -287,11 +269,7 @@ The warning `The (c)IOS detected in slot ### will be overwritten` can be safely 
 8. Press `A` to continue.
 9. Repeat the previous 3 steps with the following configurations:
 
-<div id="hide-aside-entry">
-
 ##### cIOS 249 (base 56) {#vwii-cios249}
-
-</div>
 
 ```
 Select cIOS <d2x-v1-demo-vWii>
@@ -303,11 +281,8 @@ Select cIOS slot <249>
     <image width="640" height="480" href="/images/cios/d2x_v11_249_vwii.png" />
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo-vWii&gt;</text>
 </svg>
-<div id="hide-aside-entry">
 
 ##### cIOS 250 (base 57) {#vwii-cios250}
-
-</div>
 
 ```
 Select cIOS <d2x-v1-demo-vWii>
@@ -319,11 +294,8 @@ Select cIOS slot <250>
     <image width="640" height="480" href="/images/cios/d2x_v11_250_vwii.png" />
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo-vWii&gt;</text>
 </svg>
-<div id="hide-aside-entry">
 
 ##### cIOS 251 (base 58) {#vwii-cios251}
-
-</div>
 
 ```
 Select cIOS <d2x-v1-demo-vWii>
@@ -376,11 +348,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 7. Select `Continue`.
 8. Change the settings to the following:
 
-<div id="hide-aside-entry">
-
 ##### cIOS 249 (base 57) {#wii-mini-cios249}
-
-</div>
 
 ```
 Select cIOS <d2xl-v1-beta2>
