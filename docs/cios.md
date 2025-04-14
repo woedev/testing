@@ -103,7 +103,7 @@ Select cIOS revision <65535>
 <div id="js-enabled">
 
 ::: info
-If you're unable to select `d2x-v1-demo`, press `B` to exit the installer, and then make sure your SD card is unlocked.
+If you're unable to select `d2x-v1-demo`, press `B` to exit the installer and then make sure your SD card is unlocked.
 :::
 
 </div>
@@ -153,8 +153,9 @@ Select cIOS revision <65535>
     <image width="640" height="480" href="/images/cios/d2x_v11_249.png" />
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo&gt;</text>
 </svg>
-
+<div id="hide-aside-entry">
 ##### cIOS 250 (base 57) {#wii-cios250}
+</div>
 
 ```
 Select cIOS <d2x-v1-demo>
@@ -251,7 +252,7 @@ Select cIOS slot <248>
 <div id="js-enabled">
 
 ::: info
-If you're unable to select `d2x-v1-demo-vWii`, press `B` to exit the installer, and then make sure your SD card is unlocked.
+If you're unable to select `d2x-v1-demo-vWii`, press `B` to exit the installer and then make sure your SD card is unlocked.
 :::
 
 </div>
