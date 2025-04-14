@@ -237,9 +237,13 @@ Select cIOS slot <248>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo-vWii&gt;</text>
 </svg>
 
+<div id="js-enabled">
+
 ::: info
-If you do not see `d2x-v1-demo-vWii`, press `B` to exit the installer, and then make sure your SD card is unlocked.
+If you're unable to select `d2x-v1-demo`, press `B` to exit the installer. Next, eject your SD card and make sure the lock switch is in the unlocked position.
 :::
+
+</div>
 
 7. Press `A` to install.
 
