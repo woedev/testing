@@ -1,4 +1,5 @@
 ---
+outline: false
 head: [
     ['link', {rel: 'stylesheet', href: '/testing/cios/cios.css'}],
     ['script', {defer: '', src: '/testing/cios/d2xVersion.js'}]
