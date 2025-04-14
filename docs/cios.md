@@ -207,9 +207,20 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 
 ## Requirements {#vwii-requirements}
 
+<div id="js-enabled">
+
 * A Wii U with the Homebrew Channel installed on the vWii
 * An SD card or USB drive
 * The [d2x cIOS Installer for vWii](https://github.com/wiidev/d2x-cios/releases/download/d2x-v1-demo/d2x-v1-demo-vWii.zip) (click to download)
+
+</div>
+<noscript>
+
+* A Wii U with the Homebrew Channel installed on the vWii
+* An SD card or USB drive
+* The [d2x cIOS Installer for vWii](https://github.com/wiidev/d2x-cios/releases/)
+
+</noscript>
 
 ::: warning
 If you're using an SD card, ensure the lock switch is in the unlocked position, otherwise you'll be unable to select the correct options in the installer.
