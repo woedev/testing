@@ -158,6 +158,7 @@ Select cIOS revision <65535>
 ##### cIOS 250 (base 57) {#wii-cios250}
 
 </div>
+
 ```
 Select cIOS <d2x-v1-demo>
 Select cIOS base <57>
@@ -174,6 +175,7 @@ Select cIOS revision <65535>
 ##### cIOS 251 (base 58) {#wii-cios251}
 
 </div>
+
 ```
 Select cIOS <d2x-v1-demo>
 Select cIOS base <58>
