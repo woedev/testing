@@ -255,8 +255,10 @@ The warning `The (c)IOS detected in slot ### will be overwritten` can be safely 
     <image width="640" height="480" href="/images/cios/d2x_installation.png" />
     <text x="16" y="389" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">Installing d2x-v1-demo-vWii base 38 rev21011 into slot 248 (1/1)...</text>
 </svg>
+
+8. Press `A` to continue.
     
-8. Repeat the previous 2 steps with the following configurations:
+9. Repeat the previous 3 steps with the following configurations:
 
 ##### cIOS 249 (base 56) {#vwii-cios249}
     
