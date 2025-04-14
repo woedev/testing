@@ -45,7 +45,7 @@ Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing s
 </noscript>
 
 ::: warning
-If you're using an SD card, ensure that the lock switch is in the unlocked position, otherwise you'll be unable to select the correct options in the installer.
+If you're using an SD card, ensure the lock switch is in the unlocked position, otherwise you'll be unable to select the correct options in the installer.
 :::
 
 ## IOS Downloads {#wii-downloads}
@@ -103,7 +103,7 @@ Select cIOS revision <65535>
 <div id="js-enabled">
 
 ::: info
-If you're unable to select `d2x-v1-demo`, press `B` to exit the installer. Next, eject your SD card and make sure the lock switch is in the unlocked position.
+If you're unable to select `d2x-v1-demo`, press `B` to exit the installer, and then make sure your SD card is unlocked.
 :::
 
 </div>
@@ -212,7 +212,7 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 * The [d2x cIOS Installer for vWii](https://github.com/wiidev/d2x-cios/releases/download/d2x-v1-demo/d2x-v1-demo-vWii.zip) (click to download)
 
 ::: warning
-If you're using an SD card, ensure that the lock switch is in the unlocked position, otherwise you'll be unable to select the correct options in the installer.
+If you're using an SD card, ensure the lock switch is in the unlocked position, otherwise you'll be unable to select the correct options in the installer.
 :::
 
 ## Installation {#vwii-installation}
@@ -240,7 +240,7 @@ Select cIOS slot <248>
 <div id="js-enabled">
 
 ::: info
-If you're unable to select `d2x-v1-demo-vWii`, press `B` to exit the installer. Next, eject your SD card and make sure the lock switch is in the unlocked position.
+If you're unable to select `d2x-v1-demo-vWii`, press `B` to exit the installer, and then make sure your SD card is unlocked.
 :::
 
 </div>
