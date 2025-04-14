@@ -24,6 +24,12 @@ canvas[id^="d2x_"] {
     user-select: none;
 }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    img[src$=".svg"] {
+      width: 100%; 
+    }
+  }
+
 #js-enabled {
     display: none;
 }
