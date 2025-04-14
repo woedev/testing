@@ -109,7 +109,7 @@ If you're unable to select `d2x-v1-demo`, press `B` to exit the installer, and t
 </div>
 
 ::: info
-The warning `(c)IOS detected in slot ### will be overwritten` can be safely ignored.
+The warning `The (c)IOS detected in slot ### will be overwritten` can be safely ignored.
 :::
 
 ::: info
@@ -244,6 +244,10 @@ If you're unable to select `d2x-v1-demo-vWii`, press `B` to exit the installer, 
 :::
 
 </div>
+
+::: info
+The warning `The (c)IOS detected in slot ### will be overwritten` can be safely ignored.
+:::
 
 7. Press `A` to install.
 
