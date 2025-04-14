@@ -80,7 +80,7 @@ The WAD files should be on your SD card like this:
 
 ## Installation {#wii-installation}
 
-1. Copy the `apps` folder within [d2x-v1-demo.zip](https://github.com/wiidev/d2x-cios/releases/download/d2x-v1-demo/d2x-v1-demo.zip) to the root of your SD card or USB drive.
+1. Copy the `apps` folder from within [d2x-v1-demo.zip](https://github.com/wiidev/d2x-cios/releases/download/d2x-v1-demo/d2x-v1-demo.zip) to the root of your SD card or USB drive.
 2. Reinsert your SD card or USB drive into your console.
 3. Power on your console.
 4. Launch the Homebrew Channel.
@@ -228,7 +228,7 @@ If you're using an SD card, ensure the lock switch is in the unlocked position, 
 
 ## Installation {#vwii-installation}
 
-1. Copy the `apps` folder within [d2x-v1-demo-vWii.zip](https://github.com/wiidev/d2x-cios/releases/download/d2x-v1-demo/d2x-v1-demo-vWii.zip) to the root of your SD card or USB drive.
+1. Copy the `apps` folder from within [d2x-v1-demo-vWii.zip](https://github.com/wiidev/d2x-cios/releases/download/d2x-v1-demo/d2x-v1-demo-vWii.zip) to the root of your SD card or USB drive.
 2. Reinsert your SD card or USB drive into your console.
 3. Power on your console.
 4. Launch the Homebrew Channel.
@@ -341,7 +341,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 ## Installation {#wii-mini-installation}
 
 1. Insert your USB drive into your computer.
-2. Copy the `apps` folder within [d2xl-cios-installer-mini.zip](https://woedev.github.io/testing/assets/files/d2xl-cios-installer-mini.zip) to the root of your USB drive.
+2. Copy the `apps` folder from within [d2xl-cios-installer-mini.zip](https://woedev.github.io/testing/assets/files/d2xl-cios-installer-mini.zip) to the root of your USB drive.
 3. Reinsert your USB drive into your console.
 4. Power on your console.
 5. Launch the Homebrew Channel.
