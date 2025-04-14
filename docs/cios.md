@@ -33,7 +33,7 @@ Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing s
 
 * A Wii with the Homebrew Channel installed
 * An SD card or USB drive
-* The [d2x cIOS Installer](https://github.com/wiidev/d2x-cios/releases/download/d2x-v1-demo/d2x-v1-demo.zip)
+* The [d2x cIOS Installer](https://github.com/wiidev/d2x-cios/releases/download/d2x-v1-demo/d2x-v1-demo.zip) (click to download)
 
 </div>
 <noscript>
@@ -85,7 +85,7 @@ The WAD files should be on your SD card like this:
 3. Power on your console.
 4. Launch the Homebrew Channel.
 5. Launch d2x cIOS Installer from the list of homebrew.
-6. Set everything to match the following:
+6. Change the settings to the following:
 
 ##### cIOS 248 (base 38) {#wii-cios248}
 
@@ -209,7 +209,7 @@ Do not attempt to install a Wii/Wii mini IOS or System Menu on the vWii. Doing s
 
 * A Wii U with the Homebrew Channel installed on the vWii
 * An SD card or USB drive
-* The [d2x cIOS Installer for vWii](https://github.com/wiidev/d2x-cios/releases/download/d2x-v1-demo/d2x-v1-demo-vWii.zip)
+* The [d2x cIOS Installer for vWii](https://github.com/wiidev/d2x-cios/releases/download/d2x-v1-demo/d2x-v1-demo-vWii.zip) (click to download)
 
 ::: warning
 If you're using an SD card, ensure that the lock switch is in the unlocked position, otherwise you'll be unable to select the correct options in the installer.
@@ -222,7 +222,7 @@ If you're using an SD card, ensure that the lock switch is in the unlocked posit
 3. Power on your console.
 4. Launch the Homebrew Channel.
 5. Launch d2x cIOS Installer from the list of homebrew.
-6. Set everything to match the following:
+6. Change the settings to the following:
 
 ##### cIOS 248 (base 38) {#vwii-cios248}
 
@@ -316,7 +316,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 
 * A Wii mini with the Homebrew Channel installed
 * A USB drive
-* The [d2xl cIOS Installer](/assets/files/d2xl-cios-installer-mini.zip)
+* The [d2xl cIOS Installer](/assets/files/d2xl-cios-installer-mini.zip) (click to download)
 
 ## Installation {#wii-mini-installation}
 
@@ -327,7 +327,7 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 5. Launch the Homebrew Channel.
 6. Launch d2xl cIOS Installer from the list of homebrew.
 7. Select `Continue`.
-8. Set the options to the following:
+8. Change the settings to the following:
 
 ##### cIOS 249 (base 57) {#wii-mini-cios249}
 
