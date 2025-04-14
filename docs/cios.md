@@ -240,7 +240,7 @@ Select cIOS slot <248>
 <div id="js-enabled">
 
 ::: info
-If you're unable to select `d2x-v1-demo`, press `B` to exit the installer. Next, eject your SD card and make sure the lock switch is in the unlocked position.
+If you're unable to select `d2x-v1-demo-vWii`, press `B` to exit the installer. Next, eject your SD card and make sure the lock switch is in the unlocked position.
 :::
 
 </div>
