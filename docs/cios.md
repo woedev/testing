@@ -1,5 +1,4 @@
 ---
-outline: false
 head: [
     ['link', {rel: 'stylesheet', href: '/testing/cios/cios.css'}],
     ['script', {defer: '', src: '/testing/cios/d2xVersion.js'}]
@@ -87,7 +86,11 @@ The WAD files should be on your SD card like this:
 5. Launch d2x cIOS Installer from the list of homebrew.
 6. Change the settings to the following:
 
+<div id="hide-aside-entry">
+
 ##### cIOS 248 (base 38) {#wii-cios248}
+
+</div>
 
 ```
 Select cIOS <d2x-v1-demo>
@@ -115,18 +118,18 @@ The warning `The (c)IOS detected in slot ### will be overwritten` can be safely 
 ::: info
 If you are seeing `Slot ### already used in batch settings` or `cIOS already added in batch with revision ##### and slot ###`, press `-` to disable batch mode.
 :::
-    
+
 7. Press `A`. This will bring you to the slot map:
 
 ![](/images/cios/d2x_summary.png)
-    
+
 8. Press `A` again.
 
 <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
     <image width="640" height="480" href="/images/cios/d2x_installation.png" />
     <text x="16" y="389" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">Installing d2x-v1-demo base 38 rev65535 into slot 248 (1/1)...</text>
 </svg>
-    
+
 9. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
 
 ![](/images/cios/d2x_log.png)
@@ -140,7 +143,11 @@ If you are getting an error before/during the downloading stages (e.g., `tcp_con
 10. Press `A`. This will return you to the configuration screen.
 11. Repeat the previous 5 steps with the following configurations:
 
+<div id="hide-aside-entry">
+
 ##### cIOS 249 (base 56) {#wii-cios249}
+
+</div>
 
 ```
 Select cIOS <d2x-v1-demo>
@@ -241,7 +248,11 @@ If you're using an SD card, ensure the lock switch is in the unlocked position, 
 5. Launch d2x cIOS Installer from the list of homebrew.
 6. Change the settings to the following:
 
+<div id="hide-aside-entry">
+
 ##### cIOS 248 (base 38) {#vwii-cios248}
+
+</div>
 
 ```
 Select cIOS <d2x-v1-demo-vWii>
@@ -274,11 +285,14 @@ The warning `The (c)IOS detected in slot ### will be overwritten` can be safely 
 </svg>
 
 8. Press `A` to continue.
-    
 9. Repeat the previous 3 steps with the following configurations:
 
+<div id="hide-aside-entry">
+
 ##### cIOS 249 (base 56) {#vwii-cios249}
-    
+
+</div>
+
 ```
 Select cIOS <d2x-v1-demo-vWii>
 Select cIOS base <56>
@@ -289,8 +303,11 @@ Select cIOS slot <249>
     <image width="640" height="480" href="/images/cios/d2x_v11_249_vwii.png" />
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo-vWii&gt;</text>
 </svg>
+<div id="hide-aside-entry">
 
 ##### cIOS 250 (base 57) {#vwii-cios250}
+
+</div>
 
 ```
 Select cIOS <d2x-v1-demo-vWii>
@@ -302,8 +319,11 @@ Select cIOS slot <250>
     <image width="640" height="480" href="/images/cios/d2x_v11_250_vwii.png" />
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo-vWii&gt;</text>
 </svg>
+<div id="hide-aside-entry">
 
 ##### cIOS 251 (base 58) {#vwii-cios251}
+
+</div>
 
 ```
 Select cIOS <d2x-v1-demo-vWii>
@@ -356,7 +376,11 @@ Do not attempt to install a Wii/vWii IOS or System Menu on the Wii mini. Doing s
 7. Select `Continue`.
 8. Change the settings to the following:
 
+<div id="hide-aside-entry">
+
 ##### cIOS 249 (base 57) {#wii-mini-cios249}
+
+</div>
 
 ```
 Select cIOS <d2xl-v1-beta2>
