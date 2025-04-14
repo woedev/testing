@@ -299,7 +299,7 @@ Select cIOS slot <251>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo-vWii&gt;</text>
 </svg>
 
-9. Once you have installed the cIOS into the 4 slots, press `B` to return to the Homebrew Channel.
+10. Once you have installed the cIOS into the 4 slots, press `B` to return to the Homebrew Channel.
 
 ::: tip
 [Continue to finalizing setup](vwii-finalizing-setup)
