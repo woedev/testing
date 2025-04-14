@@ -40,7 +40,7 @@ Do not attempt to install a vWii/Wii mini IOS or System Menu on the Wii. Doing s
 
 * A Wii with the Homebrew Channel installed
 * An SD card or USB drive
-* The [d2x cIOS Installer](https://github.com/wiidev/d2x-cios/releases/)
+* The [d2x cIOS Installer](https://github.com/wiidev/d2x-cios/releases)
 
 </noscript>
 
@@ -185,7 +185,7 @@ Select cIOS revision <65535>
 12. Once you have installed the cIOS into the 4 slots, press `B` to return to the Homebrew Channel.
 
 ::: info
-If you downloaded the 4 WAD files in the [IOS Downloads](#wii-downloads) section, you may now delete them from your SD card/USB drive.
+If you downloaded the 4 WAD files in the [IOS Downloads](#wii-downloads) section, you may now delete them from your SD card or USB drive.
 :::
 
 ::: tip
