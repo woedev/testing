@@ -100,10 +100,13 @@ Select cIOS revision <65535>
     <image width="640" height="480" href="/images/cios/d2x_v11_248.png" />
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-currentversion&gt;</text>
 </svg>
+<div id="js-enabled">
 
 ::: info
 If you're unable to select `d2x-currentversion`, press `B` to exit the installer. Next, eject your SD card and make sure the lock switch is in the unlocked position.
 :::
+
+</div>
 
 ::: info
 The warning `(c)IOS detected in slot ### will be overwritten` can be safely ignored.
