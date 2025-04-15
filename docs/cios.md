@@ -22,7 +22,7 @@ head: [
 ::: details Technical Details (optional)
 cIOS (Custom IOS) are [IOS](https://wiibrew.org/wiki/IOS) that have been modified to include additional modules and patches, which typically enable your console to support optical disc emulation and NAND redirection (EmuNAND). Homebrew such as [USB Loader GX](wii-loaders) or [WiiFlow](wii-loaders) will then utilize the cIOS, which will allow you to play backups of your games from an SD card or USB drive.
 
-Installing the cIOS is highly recommended due to the increased risk of the DVD drive failing as your console ages, but you can skip this section of the guide if you prefer.
+Installing the cIOS is highly recommended due to the increased risk of the DVD drive failing as your console ages, but you may skip this section of the guide if you prefer.
 :::
 
 ::: danger
