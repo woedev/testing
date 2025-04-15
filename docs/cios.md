@@ -55,7 +55,7 @@ You can skip this section and proceed to the [Installation](#wii-installation) s
 :::
 
 ::: info
-If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.zip), which will then download the WAD files for you.
+If you are on macOS or Linux, you may download & run [this script](/assets/files/d2x_offline_ios.zip), which will download the WAD files for you.
 :::
 
 1. Insert your SD card or USB drive into your computer.
@@ -80,12 +80,13 @@ The WAD files should be on your SD card like this:
 
 ## Installation {#wii-installation}
 
-1. Copy the `apps` folder from within [d2x-v1-demo.zip](https://github.com/wiidev/d2x-cios/releases/download/d2x-v1-demo/d2x-v1-demo.zip) to the root of your SD card or USB drive.
-2. Reinsert your SD card or USB drive into your console.
-3. Power on your console.
-4. Launch the Homebrew Channel.
-5. Launch d2x cIOS Installer from the list of homebrew.
-6. Change the settings to the following:
+1. If you haven't already, insert your SD card or USB drive into your computer.
+2. Copy the `apps` folder from within [d2x-v1-demo.zip](https://github.com/wiidev/d2x-cios/releases/download/d2x-v1-demo/d2x-v1-demo.zip) to the root of your SD card or USB drive.
+3. Reinsert your SD card or USB drive into your console.
+4. Power on your console.
+5. Launch the Homebrew Channel.
+6. Launch d2x cIOS Installer from the list of homebrew.
+7. Change the settings to the following:
 
 ##### cIOS 248 (base 38) {#wii-cios248}
 
@@ -116,18 +117,18 @@ The warning `The (c)IOS detected in slot ### will be overwritten` can be safely 
 If you are seeing `Slot ### already used in batch settings` or `cIOS already added in batch with revision ##### and slot ###`, press `-` to disable batch mode.
 :::
 
-7. Press `A`. This will bring you to the slot map:
+8. Press `A`. This will bring you to the slot map:
 
 ![](/images/cios/d2x_summary.png)
 
-8. Press `A` again.
+9. Press `A` again.
 
 <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
     <image width="640" height="480" href="/images/cios/d2x_installation.png" />
     <text x="16" y="389" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">Installing d2x-v1-demo base 38 rev65535 into slot 248 (1/1)...</text>
 </svg>
 
-9. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
+10. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
 
 ![](/images/cios/d2x_log.png)
 
@@ -137,8 +138,8 @@ If the slot is highlighted red, try to install the cIOS again.
 If you are getting an error before/during the downloading stages (e.g., `tcp_connect timeout`, `net_gethostbyname failed: ...`), press `B` to exit and continue from the [IOS Downloads](#wii-downloads) section.
 :::
 
-10. Press `A`. This will return you to the configuration screen.
-11. Repeat the previous 5 steps with the following configurations:
+11. Press `A`. This will return you to the configuration screen.
+12. Repeat the previous 5 steps with the following configurations:
 
 ##### cIOS 249 (base 56) {#wii-cios249}
 
@@ -182,7 +183,7 @@ Select cIOS revision <65535>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo&gt;</text>
 </svg>
 
-12. Once you have installed the cIOS into the 4 slots, press `B` to return to the Homebrew Channel.
+13. Once you have installed the cIOS into the 4 slots, press `B` to return to the Homebrew Channel.
 
 ::: info
 If you downloaded the 4 WAD files in the [IOS Downloads](#wii-downloads) section, you may now delete them from your SD card or USB drive.
@@ -228,12 +229,13 @@ If you're using an SD card, ensure the lock switch is in the unlocked position, 
 
 ## Installation {#vwii-installation}
 
-1. Copy the `apps` folder from within [d2x-v1-demo-vWii.zip](https://github.com/wiidev/d2x-cios/releases/download/d2x-v1-demo/d2x-v1-demo-vWii.zip) to the root of your SD card or USB drive.
-2. Reinsert your SD card or USB drive into your console.
-3. Power on your console.
-4. Launch the Homebrew Channel.
-5. Launch d2x cIOS Installer from the list of homebrew.
-6. Change the settings to the following:
+1. Insert your SD card or USB drive into your computer.
+2. Copy the `apps` folder from within [d2x-v1-demo-vWii.zip](https://github.com/wiidev/d2x-cios/releases/download/d2x-v1-demo/d2x-v1-demo-vWii.zip) to the root of your SD card or USB drive.
+3. Reinsert your SD card or USB drive into your console.
+4. Power on your console.
+5. Launch the Homebrew Channel.
+6. Launch d2x cIOS Installer from the list of homebrew.
+7. Change the settings to the following:
 
 ##### cIOS 248 (base 38) {#vwii-cios248}
 
@@ -260,15 +262,15 @@ If you're unable to select `d2x-v1-demo-vWii`, press `B` to exit the installer a
 The warning `The (c)IOS detected in slot ### will be overwritten` can be safely ignored.
 :::
 
-7. Press `A` to install.
+8. Press `A` to install.
 
 <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
     <image width="640" height="480" href="/images/cios/d2x_installation.png" />
     <text x="16" y="389" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">Installing d2x-v1-demo-vWii base 38 rev21011 into slot 248 (1/1)...</text>
 </svg>
 
-8. Press `A` to continue.
-9. Repeat the previous 3 steps with the following configurations:
+9. Press `A` to continue.
+10. Repeat the previous 3 steps with the following configurations:
 
 ##### cIOS 249 (base 56) {#vwii-cios249}
 
@@ -309,7 +311,7 @@ Select cIOS slot <251>
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo-vWii&gt;</text>
 </svg>
 
-10. Once you have installed the cIOS into the 4 slots, press `B` to return to the Homebrew Channel.
+11. Once you have installed the cIOS into the 4 slots, press `B` to return to the Homebrew Channel.
 
 ::: tip
 [Continue to finalizing setup](vwii-finalizing-setup)
