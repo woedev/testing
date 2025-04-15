@@ -20,7 +20,9 @@ head: [
 :::: tab cIOS for Wii/Family Edition
 
 ::: details Technical Details (optional)
-cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
+cIOS (Custom IOS) are [IOS](https://wiibrew.org/wiki/IOS) that have been modified to include additional modules and patches, which typically enable your console to support optical disc emulation and NAND redirection (EmuNAND). Homebrew such as USB Loader GX or WiiFlow will then utilize the cIOS, which will allow you to play backups of your games from an SD card or USB drive.
+
+Installing the cIOS is highly recommended due to the increased risk of the DVD drive failing as your console ages, but you can skip this section of the guide if you prefer.
 :::
 
 ::: danger
@@ -250,7 +252,6 @@ Select cIOS slot <248>
     <image width="640" height="480" href="/images/cios/d2x_v11_248_vwii.png" />
     <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo-vWii&gt;</text>
 </svg>
-
 <div id="js-enabled">
 
 ::: info
