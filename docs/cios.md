@@ -134,7 +134,8 @@ If you are seeing `Slot ### already used in batch settings` or `cIOS already add
 
 ::: info
 If the slot is highlighted red, try to install the cIOS again.
-
+:::
+::: info
 If you are getting an error before/during the downloading stages (e.g., `tcp_connect timeout`, `net_gethostbyname failed: ...`), press `B` to exit and continue from the [IOS Downloads](#wii-downloads) section.
 :::
 
