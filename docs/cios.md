@@ -22,7 +22,7 @@ head: [
 ::: details Technical Details (optional)
 cIOS (Custom IOS) are [IOS](https://wiibrew.org/wiki/IOS) that have been modified to include additional modules and patches, which typically enable your console to support optical disc emulation and NAND redirection (EmuNAND). Homebrew such as [USB Loader GX](wii-loaders) or [WiiFlow](wii-loaders) will then utilize the cIOS, which will allow you to play backups of your games from an SD card or USB drive.
 
-Installing the cIOS is highly recommended due to the increased risk of the DVD drive failing as your console ages, but you may skip this section of the guide if you prefer.
+Installing the cIOS is highly recommended due to the increased risk of your consoles DVD drive failing as it ages, but you may skip this section of the guide if you prefer.
 :::
 
 ::: danger
@@ -202,7 +202,9 @@ Now that your Wii has adequate brick protection, you can install the Open Shop C
 :::: tab cIOS for vWii (Wii U)
 
 ::: details Technical Details (optional)
-cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
+cIOS (Custom IOS) are [IOS](https://wiibrew.org/wiki/IOS) that have been modified to include additional modules and patches, which typically enable your console to support optical disc emulation and NAND redirection (EmuNAND). Homebrew such as [USB Loader GX](wii-loaders) or [WiiFlow](wii-loaders) will then utilize the cIOS, which will allow you to play backups of your games from an SD card or USB drive.
+
+Installing the cIOS is highly recommended due to the increased risk of your consoles DVD drive failing as it ages, but you may skip this section of the guide if you prefer.
 :::
 
 ::: danger
@@ -327,7 +329,9 @@ If you need help with anything regarding this tutorial, please join [the Wii min
 :::
 
 ::: details Technical Details (optional)
-cIOS (Custom IOS) are IOS that are patched to allow custom functionality. While [cIOS](https://wiibrew.org/wiki/Custom_IOS) has largely been supplanted by AHBPROT, which gives complete hardware access, it still has useful applications. For example, this enables the functionality of USB loaders like USB Loader GX and WiiFlow, alongside other pieces of homebrew like SaveGame Manager GX. You can skip this process if you want, but generally it extends your Wii with little to no downsides.
+cIOS (Custom IOS) are [IOS](https://wiibrew.org/wiki/IOS) that have been modified to include additional modules and patches, which typically enable your console to support optical disc emulation and NAND redirection (EmuNAND). Homebrew such as [USB Loader GX](wii-loaders) or [WiiFlow](wii-loaders) will then utilize the cIOS, which will allow you to play backups of your games from an SD card or USB drive.
+
+Installing the cIOS is highly recommended due to the increased risk of your consoles DVD drive failing as it ages, but you may skip this section of the guide if you prefer.
 
 This d2x cIOS installer was originally developed for the Wii U's vWii by DaveBaol and custom cIOS was created by Leseratte for the Wii mini. The original download page can be found [here](https://wii.leseratte10.de/d2xl-cIOS/). Leseratte's GitHub page can be found [here](https://github.com/Leseratte10/d2xl-cios). Please note that this cIOS is still experimental, though no problem with functionality has been reported.
 :::
