@@ -138,7 +138,7 @@ If you are seeing `Slot ### already used in batch settings` or `cIOS already add
 If the slot is highlighted red, try to install the cIOS again.
 :::
 ::: info
-If you are getting an error before/during the downloading stages (e.g., `tcp_connect timeout`, `net_gethostbyname failed: ...`), press `B` to exit and continue from the [IOS Downloads](#wii-downloads) section.
+If you are getting an error before/during the downloading stages (e.g., `tcp_connect timeout`, `net_gethostbyname failed: ...`), press `B` to exit and then start over from the [IOS Downloads](#wii-downloads) section.
 :::
 
 11. Press `A`. This will return you to the configuration screen.
@@ -153,11 +153,6 @@ Select cIOS slot <249>
 Select cIOS revision <65535>
 ```
 
-<svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
-    <image width="640" height="480" href="/images/cios/d2x_v11_249.png" />
-    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo&gt;</text>
-</svg>
-
 ##### cIOS 250 (base 57) {#wii-cios250}
 
 ```
@@ -166,11 +161,6 @@ Select cIOS base <57>
 Select cIOS slot <250>
 Select cIOS revision <65535>
 ```
-
-<svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
-    <image width="640" height="480" href="/images/cios/d2x_v11_250.png" />
-    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo&gt;</text>
-</svg>
 
 ##### cIOS 251 (base 58) {#wii-cios251}
 
@@ -181,12 +171,7 @@ Select cIOS slot <251>
 Select cIOS revision <65535>
 ```
 
-<svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
-    <image width="640" height="480" href="/images/cios/d2x_v11_251.png" />
-    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo&gt;</text>
-</svg>
-
-13. Once you have installed the cIOS into the 4 slots, press `B` to return to the Homebrew Channel.
+13. Once you have installed the cIOS into the 4 slots (248, 249, 250 & 251), press `B` to return to the Homebrew Channel.
 
 ::: info
 If you downloaded the 4 WAD files in the [IOS Downloads](#wii-downloads) section, you may now delete them from your SD card or USB drive.
@@ -284,11 +269,6 @@ Select cIOS base <56>
 Select cIOS slot <249>
 ```
 
-<svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
-    <image width="640" height="480" href="/images/cios/d2x_v11_249_vwii.png" />
-    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo-vWii&gt;</text>
-</svg>
-
 ##### cIOS 250 (base 57) {#vwii-cios250}
 
 ```
@@ -296,11 +276,6 @@ Select cIOS <d2x-v1-demo-vWii>
 Select cIOS base <57>
 Select cIOS slot <250>
 ```
-
-<svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
-    <image width="640" height="480" href="/images/cios/d2x_v11_250_vwii.png" />
-    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo-vWii&gt;</text>
-</svg>
 
 ##### cIOS 251 (base 58) {#vwii-cios251}
 
@@ -310,12 +285,7 @@ Select cIOS base <58>
 Select cIOS slot <251>
 ```
 
-<svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
-    <image width="640" height="480" href="/images/cios/d2x_v11_251_vwii.png" />
-    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo-vWii&gt;</text>
-</svg>
-
-11. Once you have installed the cIOS into the 4 slots, press `B` to return to the Homebrew Channel.
+11. Once you have installed the cIOS into the 4 slots (248, 249, 250 & 251), press `B` to return to the Homebrew Channel.
 
 ::: tip
 [Continue to finalizing setup](vwii-finalizing-setup)
