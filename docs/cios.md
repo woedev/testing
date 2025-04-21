@@ -82,13 +82,29 @@ The WAD files should be on your SD card like this:
 
 ## Installation {#wii-installation}
 
+<div id="js-enabled">
+
 1. If you haven't already, insert your SD card or USB drive into your computer.
 2. Copy the `apps` folder from within [d2x-v1-demo.zip](https://github.com/wiidev/d2x-cios/releases/download/d2x-v1-demo/d2x-v1-demo.zip) to the root of your SD card or USB drive.
+2. Copy the `apps` folder from within the `.zip` file that you downloaded in the [Requirements](wii-requirements) section of the guide to the root of your SD card or USB drive.
 3. Reinsert your SD card or USB drive into your console.
 4. Power on your console.
 5. Launch the Homebrew Channel.
 6. Launch d2x cIOS Installer from the list of homebrew.
 7. Change the settings to the following:
+
+</div>
+<noscript>
+
+1. If you haven't already, insert your SD card or USB drive into your computer.
+2. Copy the `apps` folder from within the `.zip` file that you downloaded in the [Requirements](wii-requirements) section of the guide to the root of your SD card or USB drive.
+3. Reinsert your SD card or USB drive into your console.
+4. Power on your console.
+5. Launch the Homebrew Channel.
+6. Launch d2x cIOS Installer from the list of homebrew.
+7. Change the settings to the following:
+
+</noscript>
 
 ##### cIOS 248 (base 38) {#wii-cios248}
 
@@ -101,7 +117,7 @@ Select cIOS revision <65535>
 
 <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
     <image width="640" height="480" href="/images/cios/d2x_v11_248.png" />
-    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo&gt;</text>
+    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOS, monospace">&lt;d2x-v1-demo&gt;</text>
 </svg>
 <div id="js-enabled">
 
@@ -127,7 +143,7 @@ If you are seeing `Slot ### already used in batch settings` or `cIOS already add
 
 <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
     <image width="640" height="480" href="/images/cios/d2x_installation.png" />
-    <text x="16" y="389" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">Installing d2x-v1-demo base 38 rev65535 into slot 248 (1/1)...</text>
+    <text x="16" y="389" fill="#D3D3D3" font-size="16px" font-family="DOS, monospace">Installing d2x-v1-demo base 38 rev65535 into slot 248 (1/1)...</text>
 </svg>
 
 10. After the installation has finished, you will be brought back to the slot map. Ensure that the slot that was just installed is highlighted green.
@@ -237,7 +253,7 @@ Select cIOS slot <248>
 
 <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
     <image width="640" height="480" href="/images/cios/d2x_v11_248_vwii.png" />
-    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">&lt;d2x-v1-demo-vWii&gt;</text>
+    <text x="120" y="133" fill="#D3D3D3" font-size="16px" font-family="DOS, monospace">&lt;d2x-v1-demo-vWii&gt;</text>
 </svg>
 <div id="js-enabled">
 
@@ -255,7 +271,7 @@ The warning `The (c)IOS detected in slot ### will be overwritten` can be safely 
 
 <svg class="cIOS-svg" width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
     <image width="640" height="480" href="/images/cios/d2x_installation.png" />
-    <text x="16" y="389" fill="#D3D3D3" font-size="16px" font-family="DOSVGA, monospace">Installing d2x-v1-demo-vWii base 38 rev21011 into slot 248 (1/1)...</text>
+    <text x="16" y="389" fill="#D3D3D3" font-size="16px" font-family="DOS, monospace">Installing d2x-v1-demo-vWii base 38 rev21011 into slot 248 (1/1)...</text>
 </svg>
 
 9. Press `A` to continue.
