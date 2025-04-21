@@ -86,7 +86,6 @@ The WAD files should be on your SD card like this:
 
 1. If you haven't already, insert your SD card or USB drive into your computer.
 2. Copy the `apps` folder from within [d2x-v1-demo.zip](https://github.com/wiidev/d2x-cios/releases/download/d2x-v1-demo/d2x-v1-demo.zip) to the root of your SD card or USB drive.
-2. Copy the `apps` folder from within the `.zip` file that you downloaded in the [Requirements](wii-requirements) section of the guide to the root of your SD card or USB drive.
 3. Reinsert your SD card or USB drive into your console.
 4. Power on your console.
 5. Launch the Homebrew Channel.
@@ -97,7 +96,7 @@ The WAD files should be on your SD card like this:
 <noscript>
 
 1. If you haven't already, insert your SD card or USB drive into your computer.
-2. Copy the `apps` folder from within the `.zip` file that you downloaded in the [Requirements](wii-requirements) section of the guide to the root of your SD card or USB drive.
+2. Copy the `apps` folder from within the `.zip` file that you downloaded in the [Requirements](#wii-requirements) section of the guide to the root of your SD card or USB drive.
 3. Reinsert your SD card or USB drive into your console.
 4. Power on your console.
 5. Launch the Homebrew Channel.
